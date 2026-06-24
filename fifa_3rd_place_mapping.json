@@ -1,0 +1,4952 @@
+{
+  "EFGHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "DFGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "DEGHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "DEFHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "DEFGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "DEFGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "DEFGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "DEFGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "DEFGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CFGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CEGHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CEFHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CEFGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CEFGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CEFGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CEFGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "CEFGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDFHIJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDFGIJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDFGHJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDFGHIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDFGHIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "CDFGHIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "CDEGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFIJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFHJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFHIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFHIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "CDEFHIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFGJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFGIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFGIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "CDEFGIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFGHKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFGHJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "CDEFGHJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFGHIL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "CDEFGHIK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "CDEFGHIJ": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BFGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BEGHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "B",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BEFHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BEFGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BEFGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BEFGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BEFGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BEFGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDFHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDFGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDFGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDFGHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDFGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BDFGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BDEGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BDEFHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BDEFGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFGHKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "BDEFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFGHIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BDEFGHIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BDEFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCFHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCFGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCFGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCFGHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCFGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCFGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCEGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCEFHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCEFGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFGHKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "BCEFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFGHIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCEFGHIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCEFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDGHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFIJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFHJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFHIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFHIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDFHIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFGJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFGIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFGIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDFGIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFGHKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFGHJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "BCDFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFGHIL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDFGHIK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEGHKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "BCDEGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEGHIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEGHIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEFJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "E",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "E",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEFIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "E",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFHKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFHJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "BCDEFHJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFHIL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEFHIK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFHIJ": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEFGKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "E",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFGJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "BCDEFGJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFGIL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "E",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEFGIK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "E",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFGIJ": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "BCDEFGHL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "BCDEFGHK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "BCDEFGHJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "J",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "BCDEFGHI": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "AFGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "AEGHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "AEFHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "AEFGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "AEFGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "AEFGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "AEFGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "AEFGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADFHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADFGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADFGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADFGHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADFGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ADFGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ADEGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ADEFHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ADEFGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFGHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ADEFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFGHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ADEFGHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ADEFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACFHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACFGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACFGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACFGHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACFGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACFGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACEGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACEFHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACEFGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFGHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ACEFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFGHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACEFGHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACEFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDGHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFIJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "F",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDFHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFGJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFGIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFGIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDFGIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFGHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFGHJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "H"
+  },
+  "ACDFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFGHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDFGHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEGHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ACDEGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEGHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEGHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEFJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "I",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEFIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ACDEFHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEFHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEFGKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFGJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ACDEFGJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFGIL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEFGIK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFGIJ": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ACDEFGHL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "F",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ACDEFGHK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ACDEFGHJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "J",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ACDEFGHI": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "E",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABGHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABFHIJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABFGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABFGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABFGHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABFGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABFGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEHIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEGIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEGHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEGHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEGHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABEGHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "H",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABEFHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABEFGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFGHKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABEFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFGHIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABEFGHIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABEFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDHIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDGHIKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDFHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFGJKL": {
+    "3rd_C_E_F_H_I": "F",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFGIKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFGIJL": {
+    "3rd_C_E_F_H_I": "F",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDFGIJK": {
+    "3rd_C_E_F_H_I": "F",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFGHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABDFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "J",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFGHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDFGHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABDEIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDEHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDEGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEGHKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABDEGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEGHIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDEGHIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDEFJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDEFIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABDEFHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDEFHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDEFGKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFGJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABDEFGJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "J",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFGIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABDEFGIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFGIJ": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABDEFGHL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABDEFGHK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABDEFGHJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABDEFGHI": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCHIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCGIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCGHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCGHIKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCGHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCGHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCFHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFGJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFGIKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFGIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCFGIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "F",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFGHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCFGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "J",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFGHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCFGHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCFGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCEIJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "C",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEHJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEHIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEHIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCEHIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEGJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEGIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "A",
+    "3rd_A_E_H_I_J": "I",
+    "3rd_C_D_F_G_H": "C",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEGIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCEGIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEGHKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCEGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEGHIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCEGHIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "H",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCEFJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCEFIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCEFHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCEFHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCEFGKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFGJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCEFGJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "J",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFGIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCEFGIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFGIJ": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCEFGHL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCEFGHK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCEFGHJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCEFGHI": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDIJKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDHJKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDHIKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDHIJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDHIJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDGJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDGIKL": {
+    "3rd_C_E_F_H_I": "I",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDGIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDGIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "G",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDGHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDGHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDGHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "J",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDGHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDGHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDGHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDFJKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFIKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFIJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDFIJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "F",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFHJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "H"
+  },
+  "ABCDFHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "F",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDFHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "F",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDFGKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFGJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDFGJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "J",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFGIL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDFGIK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFGIJ": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDFGHL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "H"
+  },
+  "ABCDFGHK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDFGHJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDFGHI": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEJKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEIKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "I",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEIJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEIJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEHKL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEHJL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCDEHJK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEHIL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEHIK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEHIJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEGKL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEGJL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDEGJK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "J",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEGIL": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEGIK": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEGIJ": {
+    "3rd_C_E_F_H_I": "E",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDEGHL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCDEGHK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEGHJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDEGHI": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEFKL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEFJL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCDEFJK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEFIL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEFIK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "I",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEFIJ": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEFHL": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "F",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "D",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCDEFHK": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEFHJ": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "J",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCDEFHI": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "E",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEFGL": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "L",
+    "3rd_E_H_I_J_K": "E"
+  },
+  "ABCDEFGK": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "K"
+  },
+  "ABCDEFGJ": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "J"
+  },
+  "ABCDEFGI": {
+    "3rd_C_E_F_H_I": "C",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "D",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "E",
+    "3rd_E_H_I_J_K": "I"
+  },
+  "ABCDEFGH": {
+    "3rd_C_E_F_H_I": "H",
+    "3rd_E_F_G_I_J": "G",
+    "3rd_B_E_F_I_J": "B",
+    "3rd_A_B_C_D_F": "C",
+    "3rd_A_E_H_I_J": "A",
+    "3rd_C_D_F_G_H": "F",
+    "3rd_D_E_I_J_L": "D",
+    "3rd_E_H_I_J_K": "E"
+  }
+}
