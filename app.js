@@ -27,7 +27,7 @@ const supportedLanguages = [
   { code: 'hu', name: 'Magyar' },
   { code: 'ro', name: 'Română' },
   { code: 'el', name: 'Ελληνικά' },
-  { code: 'he', name: 'עبری' },
+  { code: 'he', name: 'עibri' },
   { code: 'id', name: 'Bahasa Indonesia' },
   { code: 'ms', name: 'Bahasa Melayu' },
   { code: 'th', name: 'ไทย' },
@@ -368,7 +368,7 @@ function getTeamName(team) {
     const sctTranslations = {
       ja: "スコットランド", en: "Scotland", es: "Escocia", fr: "Écosse", de: "Schottland",
       it: "Scozia", pt: "Escócia", zh: "苏格兰", ko: "スコットランド", ar: "اسكتلندا",
-      tr: "İskoçya", ru: "Шотландия"
+      tr: "İskoçya", ru: "Шотланディア"
     };
     return sctTranslations[currentLang] || sctTranslations['en'];
   }
@@ -429,17 +429,9 @@ function loadFifa3rdPlaceMapping() {
 function applyAnnexC() {
   if (!fifa3rdPlaceMapping || Object.keys(fifa3rdPlaceMapping).length === 0) return;
 
-  // 通過した3位チームがあるグループ名のリストを割り出し、アルファベット昇順で連結
-  // (Sweden, Morocco, Ecuador, Ivory Coast, Switzerland, South Korea, Japan, Croatia などからグループ割り出し)
   const active3rdGroups = [];
-  
-  // 各3位スロットに現在設定されているチームの所属グループを集める
   const slotsToCheck = ["3rd_A_B_C_D_F", "3rd_C_D_F_G_H", "3rd_C_E_F_H_I", "3rd_E_H_I_J_K", "3rd_B_E_F_I_J", "3rd_A_E_H_I_J", "3rd_E_F_G_I_J", "3rd_D_E_I_J_L"];
   
-  // 元の 3rd place mapping は通過グループの組み合わせキー (例: "ABCD") から各対戦カードへのスロット割り当て辞書
-  // 3位進出する「上位8グループ」の組み合わせを特定する。
-  // 各グループの 3位チームが candidates の上位に入っているか判定。
-  // ここでは簡略化のために、現在 3位枠 current に入っているチームのグループを特定する。
   const groupFinder = {
     "Sweden": "F", "Morocco": "C", "Ecuador": "E", "Ivory Coast": "E",
     "Switzerland": "B", "South Korea": "A", "Japan": "F", "Croatia": "L",
@@ -459,25 +451,9 @@ function applyAnnexC() {
   const allocation = fifa3rdPlaceMapping[combinationKey];
 
   if (allocation) {
-    // マッピングテーブルに基づき、各3位対戦枠に適切なグループの3位チームをバインド
     Object.keys(allocation).forEach(targetGroup => {
-      // targetGroup は "1A", "1B" などの1位進出国で、対戦相手となる3位スロットの名前を解決
-      // matches 定義で 3rd スロットを持っている部分を更新
       const sourceGroup = allocation[targetGroup];
       const team3rd = group3rdPlaceTeams[sourceGroup] || "TBD";
-      
-      // 対応する3位スロットを探して current を更新
-      // マップ例: "1A" -> "F" グループの3位
-      // 1A (M79 の team2) -> 3rd_C_E_F_H_I
-      // 1B (M85 の team2) -> 3rd_E_F_G_I_J
-      // 1C (M76 の team2) -> 2F (これは3rdではない)
-      // 1D (M81 の team2) -> 3rd_B_E_F_I_J
-      // 1E (M74 の team2) -> 3rd_A_B_C_D_F
-      // 1G (M82 の team2) -> 3rd_A_E_H_I_J
-      // 1H (M84 の team2) -> 2J (3rdではない)
-      // 1I (M77 の team2) -> 3rd_C_D_F_G_H
-      // 1K (M87 の team2) -> 3rd_D_E_I_J_L
-      // 1L (M80 の team2) -> 3rd_E_H_I_J_K
       
       const mappingToSlotName = {
         "1E": "3rd_A_B_C_D_F",
@@ -500,10 +476,8 @@ function applyAnnexC() {
 
 // すべてのマッチデータの動的なチーム名解決と勝ち上がり伝播
 function evaluateBracket() {
-  // 決勝トーナメント評価の前に、3位チームの配置を動的にリバランスする
   applyAnnexC();
 
-  // マッチ依存関係順に解決 (R32 -> R16 -> QF -> SF -> Final)
   const sortedMatchIds = Object.keys(matches).sort((a, b) => parseInt(a) - parseInt(b));
 
   sortedMatchIds.forEach(id => {
@@ -515,7 +489,6 @@ function evaluateBracket() {
     match.team1Name = resolveTeamName(match.team1);
     match.team2Name = resolveTeamName(match.team2);
 
-    // 親スロットのチームが変更された場合、かつ既に選択されていた勝者と異なる場合は勝者をリセット
     if (match.team1Name !== prevTeam1 && match.winner === prevTeam1) {
       match.winner = null;
     }
@@ -523,12 +496,10 @@ function evaluateBracket() {
       match.winner = null;
     }
 
-    // 両チーム決定済かつ勝者が未設定の場合は、手動予想用に状態を保ち、AI用にはTBDのまま
     if (match.team1Name === "TBD" || match.team2Name === "TBD") {
       match.winner = null;
     }
 
-    // チームが変わった、または勝者がリセットされたらスコアをリセット/再シミュレート
     if (match.team1Name !== prevTeam1 || match.team2Name !== prevTeam2 || !match.winner) {
       if (!match.winner) {
         match.score = null;
@@ -538,7 +509,6 @@ function evaluateBracket() {
     }
   });
 
-  // チャンピオン決定＆ロック判定
   const finalMatch = matches[104];
   const championTeamEl = document.getElementById('champion-team');
   const finalisedBadge = document.getElementById('finalised-badge');
@@ -629,8 +599,8 @@ function generateMatchScore(team1, team2, winner) {
   
   let gWin = 0;
   let gLose = 0;
-  
   const r = Math.random();
+
   if (r < 0.75) {
     // 90分決着
     gLose = rollGoals(baseGoalExpected);
@@ -670,10 +640,8 @@ function createMatchBox(id) {
   const slot1 = createTeamSlot(match.team1Name, match.team1.slot, match.winner === match.team1Name, match.winner && match.winner !== match.team1Name);
   const slot2 = createTeamSlot(match.team2Name, match.team2.slot, match.winner === match.team2Name, match.winner && match.winner !== match.team2Name);
 
-  // マッチ内でチームをクリックして勝ち上がらせる（手動予想モード）
   if (match.team1Name !== "TBD") {
     slot1.addEventListener('click', (e) => {
-      // 確定スロットの鍵マークをクリックしたときは何もしない
       if (e.target.closest('.team-lock-icon')) return;
       selectWinner(id, match.team1Name);
     });
@@ -698,7 +666,6 @@ function createTeamSlot(teamName, groupSlotKey, isWinner, isLoser) {
   if (isWinner) slot.classList.add('winner-selected');
   if (isLoser) slot.classList.add('loser-deselected');
 
-  // グループスロットが確定しているか
   let isConfirmed = false;
   let probText = "";
   
@@ -706,7 +673,6 @@ function createTeamSlot(teamName, groupSlotKey, isWinner, isLoser) {
     const slotData = groupSlots[groupSlotKey];
     isConfirmed = slotData.confirmed;
     
-    // スロットの現在のチームの確率を探す
     const currentCandidate = slotData.candidates.find(c => c.name === teamName);
     if (currentCandidate && currentCandidate.prob < 100) {
       probText = `${currentCandidate.prob}%`;
@@ -736,11 +702,10 @@ function createTeamSlot(teamName, groupSlotKey, isWinner, isLoser) {
     </div>
   `;
 
-  // 確定していない親スロットで確率バッジや矢印をクリックすると、他の候補を切り替えるポップアップを表示する
   if (groupSlotKey && !isConfirmed) {
     slot.querySelectorAll('.select-trigger').forEach(trigger => {
       trigger.addEventListener('click', (e) => {
-        e.stopPropagation(); // 勝者選択のバブルを防ぎ、モーダルのみを開く
+        e.stopPropagation();
         openCandidatesModal(groupSlotKey);
       });
     });
@@ -749,15 +714,14 @@ function createTeamSlot(teamName, groupSlotKey, isWinner, isLoser) {
   return slot;
 }
 
-// シンセサイザーによる「シュッ」というスウッシュ効果音の動的生成
+// シンセサイザーによる効果音生成
 function playSwooshSound() {
   try {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    const bufferSize = audioCtx.sampleRate * 0.25; // 0.25秒
+    const bufferSize = audioCtx.sampleRate * 0.25;
     const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
     const data = buffer.getChannelData(0);
     
-    // ホワイトノイズの生成
     for (let i = 0; i < bufferSize; i++) {
       data[i] = Math.random() * 2 - 1;
     }
@@ -765,15 +729,12 @@ function playSwooshSound() {
     const noise = audioCtx.createBufferSource();
     noise.buffer = buffer;
     
-    // スウッシュ（風切り音）用のバンドパスフィルター
     const filter = audioCtx.createBiquadFilter();
     filter.type = 'bandpass';
     filter.frequency.setValueAtTime(1200, audioCtx.currentTime);
-    // 周周波数を時間経過で下降させてスウッシュ感を強める
     filter.frequency.exponentialRampToValueAtTime(150, audioCtx.currentTime + 0.25);
     filter.Q.value = 4.0;
     
-    // 音量エンベロープ (フェードイン & 指数減衰フェードアウト)
     const gainNode = audioCtx.createGain();
     gainNode.gain.setValueAtTime(0.01, audioCtx.currentTime);
     gainNode.gain.linearRampToValueAtTime(0.35, audioCtx.currentTime + 0.04);
@@ -784,17 +745,14 @@ function playSwooshSound() {
     gainNode.connect(audioCtx.destination);
     
     noise.start();
-  } catch (e) {
-    // ユーザーインタラクション制限などで再生が拒否された場合のセーフティ
-  }
+  } catch (e) {}
 }
 
 // 勝者決定時の処理（手動予想）
 function selectWinner(matchId, winnerName) {
-  if (isBracketLocked) return; // ロック時は操作不可
+  if (isBracketLocked) return;
   if (winnerName === "TBD") return;
   
-  // 効果音の再生
   playSwooshSound();
   
   const match = matches[matchId];
@@ -802,7 +760,6 @@ function selectWinner(matchId, winnerName) {
   match.score = generateMatchScore(match.team1Name, match.team2Name, winnerName);
   renderAll();
 
-  // 決勝マッチ (104) の勝者が決定したら紙吹雪
   if (parseInt(matchId) === 104) {
     confetti({
       particleCount: 150,
@@ -816,7 +773,7 @@ function selectWinner(matchId, winnerName) {
 let activeSlotKeyForModal = null;
 
 function openCandidatesModal(slotKey) {
-  if (isBracketLocked) return; // ロック時はモーダルを開かない
+  if (isBracketLocked) return;
   activeSlotKeyForModal = slotKey;
   const slotData = groupSlots[slotKey];
   const modal = document.getElementById('candidates-modal');
@@ -861,10 +818,8 @@ function closeCandidatesModal() {
 }
 
 function selectCandidate(slotKey, teamName) {
-  playSwooshSound(); // 効果音の再生
+  playSwooshSound();
   groupSlots[slotKey].current = teamName;
-  
-  // 依存する下流の勝者予想をクリアするために再計算する
   renderAll();
 }
 
@@ -877,7 +832,6 @@ document.getElementById('candidates-modal').addEventListener('click', (e) => {
 });
 
 // AIシミュレーション予想ロジック
-// 強さに基づいた決定論的（固定）勝敗判定
 function getMatchWinnerDeterministic(team1, team2) {
   if (team1 === "TBD" && team2 === "TBD") return "TBD";
   if (team1 === "TBD") return team2;
@@ -889,13 +843,11 @@ function getMatchWinnerDeterministic(team1, team2) {
   if (strength1 !== strength2) {
     return strength1 > strength2 ? team1 : team2;
   }
-  // 実力値が完全に同じ場合は、アルファベット順で一貫性を持たせる
   return team1 < team2 ? team1 : team2;
 }
 
 // AI自動予想の実行
 function runAiSimulation() {
-  // 1. まず未確定のグループスロットを、最も進出確率（prob）が高い候補に決定する
   Object.keys(groupSlots).forEach(key => {
     const slot = groupSlots[key];
     if (!slot.confirmed) {
@@ -909,15 +861,12 @@ function runAiSimulation() {
     }
   });
 
-  // 2. ブラケットの評価をして親スロットの名前を最新化
   evaluateBracket();
 
-  // 3. Round of 32 から Final まで順番に決定論的に勝者を決定していく
   const sortedMatchIds = Object.keys(matches).sort((a, b) => parseInt(a) - parseInt(b));
 
   sortedMatchIds.forEach(id => {
     const match = matches[id];
-    // 最新のチーム名を取得
     match.team1Name = resolveTeamName(match.team1);
     match.team2Name = resolveTeamName(match.team2);
 
@@ -925,13 +874,11 @@ function runAiSimulation() {
     match.winner = winner;
     match.score = generateMatchScore(match.team1Name, match.team2Name, winner);
     
-    // 下流へ反映するため即時評価
     evaluateBracket();
   });
 
   renderAll();
 
-  // シミュレーション完了時に紙吹雪
   confetti({
     particleCount: 100,
     spread: 70,
@@ -941,13 +888,78 @@ function runAiSimulation() {
 
 // リセット
 function resetBracket() {
-  isBracketLocked = false; // ロック解除
+  isBracketLocked = false;
   groupSlots = JSON.parse(JSON.stringify(initialGroupSlots));
   matches = JSON.parse(JSON.stringify(initialMatches));
   renderAll();
 }
 
-// パララックス背景スクロール効果（5レイヤー急降下ダイブ＆ホログラム展開演出）
+// 汎用予想テキスト生成ヘルパー
+function getPredictionText() {
+  const finalMatch = matches[104];
+  if (finalMatch && finalMatch.winner && finalMatch.winner !== "TBD") {
+    const winnerName = getTeamName(finalMatch.winner);
+    return `私のFIFAワールドカップ2026の優勝予想は【${winnerName}】！\n48カ国のチーム力とリアルタイムデータを元にシミュレートした結果はこちら：`;
+  }
+  return `FIFAワールドカップ2026のトーナメント予想シミュレータで優勝国を予想しよう！`;
+}
+
+// Xで予想結果をシェア
+function shareOnX() {
+  const text = getPredictionText();
+  const shareUrl = "https://worldcup-predict2026.github.io/champion/";
+  const hashtags = "WorldCup2026,ワールドカップ予想,W杯予想";
+  
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}&hashtags=${encodeURIComponent(hashtags)}`;
+  window.open(twitterUrl, '_blank');
+}
+
+// LINEで予想結果をシェア
+function shareOnLine() {
+  const text = getPredictionText();
+  const shareUrl = "https://worldcup-predict2026.github.io/champion/";
+  const lineUrl = `https://line.me/R/share?text=${encodeURIComponent(text + " " + shareUrl)}`;
+  window.open(lineUrl, '_blank');
+}
+
+// WhatsAppで予想結果をシェア
+function shareOnWhatsApp() {
+  const text = getPredictionText();
+  const shareUrl = "https://worldcup-predict2026.github.io/champion/";
+  const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(text + " " + shareUrl)}`;
+  window.open(waUrl, '_blank');
+}
+
+// トーナメント表（ブラケット）を画像として保存
+function saveBracketAsImage() {
+  const element = document.getElementById("bracket-view");
+  if (!element) return;
+
+  const saveBtn = document.getElementById("save-img-btn");
+  const originalText = saveBtn.innerHTML;
+  saveBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> <span>画像生成中...</span>`;
+  saveBtn.disabled = true;
+
+  html2canvas(element, {
+    backgroundColor: "#0d1117", // 背景をダークテーマに合わせる
+    useCORS: true,
+    scale: 2
+  }).then(canvas => {
+    const link = document.createElement("a");
+    link.download = "worldcup-bracket-2026.png";
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+
+    saveBtn.innerHTML = originalText;
+    saveBtn.disabled = false;
+  }).catch(err => {
+    console.error("Failed to generate image:", err);
+    saveBtn.innerHTML = originalText;
+    saveBtn.disabled = false;
+  });
+}
+
+// パララックス背景スクロール効果
 const layerSky = document.querySelector('.layer-sky');
 const layerRoof = document.querySelector('.layer-roof');
 const layerStands = document.querySelector('.layer-stands');
@@ -960,10 +972,9 @@ const controlCenter = document.querySelector('.control-center');
 const bracketContainer = document.querySelector('.bracket-container');
 const parallaxContainer = document.querySelector('.parallax-container');
 
-let hasScannedHologram = false; // レーザースキャンの多重発火防止フラグ
+let hasScannedHologram = false;
 
 if (parallaxContainer && layerSky && layerRoof && layerStands && layerFlares && layerPitch) {
-  // 初期化時のスタイル適用
   layerSky.style.opacity = 1;
   layerSky.style.transform = 'translateZ(-10px) scale(2.0)';
   
@@ -988,77 +999,61 @@ if (parallaxContainer && layerSky && layerRoof && layerStands && layerFlares && 
 
   parallaxContainer.addEventListener('scroll', () => {
     const scrollTop = parallaxContainer.scrollTop;
-    
-    // スコア駆動アニメーションのフェーズ定義
-    // 全体スクロールレンジ: 0px 〜 1200px でズーム＆着地
     const maxScroll = 1200;
     const ratio = Math.min(scrollTop / maxScroll, 1);
     
-    // 1. Layer 1: Sky (常時表示、ゆっくりスケール)
     const skyScale = 2.0 + (ratio * 1.0);
     layerSky.style.transform = `translateZ(-10px) scale(${skyScale})`;
 
-    // 2. Layer 2: Stadium Roof (急接近して通り抜け)
-    // 0pxで不透明度0.9、800pxで完全に通り抜けて不透明度0に
     const roofRatio = Math.min(scrollTop / 800, 1);
     const roofOpacity = 0.9 * (1 - roofRatio);
-    const roofScale = 1.6 + (roofRatio * 2.9); // 1.6 -> 4.5
+    const roofScale = 1.6 + (roofRatio * 2.9);
     layerRoof.style.opacity = roofOpacity;
     layerRoof.style.transform = `translateZ(-8px) scale(${roofScale})`;
 
-    // 3. Layer 3: Spectator Stands & Girders (鉄骨と観客席)
-    // 200pxから出現開始、600pxでピーク、1000pxで後ろに通り抜けて消滅
     let standsOpacity = 0;
     if (scrollTop > 200 && scrollTop <= 600) {
       standsOpacity = (scrollTop - 200) / 400;
     } else if (scrollTop > 600 && scrollTop <= 1000) {
       standsOpacity = 1 - (scrollTop - 600) / 400;
     }
-    const standsScale = 1.3 + (Math.min(scrollTop / 1000, 1) * 2.2); // 1.3 -> 3.5
+    const standsScale = 1.3 + (Math.min(scrollTop / 1000, 1) * 2.2);
     const standsBlur = Math.max(2 - (scrollTop / 400) * 2, 0) + (scrollTop > 800 ? (scrollTop - 800) / 50 : 0);
     layerStands.style.opacity = standsOpacity;
     layerStands.style.transform = `translateZ(-5px) scale(${standsScale})`;
     layerStands.style.filter = `brightness(0.85) blur(${standsBlur}px)`;
 
-    // 4. Layer 4: Light Flares (カクテル照明の閃光)
-    // 400px〜900pxの間で光る
     let flaresOpacity = 0;
     if (scrollTop > 400 && scrollTop <= 650) {
       flaresOpacity = (scrollTop - 400) / 250;
     } else if (scrollTop > 650 && scrollTop <= 900) {
       flaresOpacity = 1 - (scrollTop - 650) / 250;
     }
-    const flaresScale = 1.15 + (Math.min(scrollTop / 900, 1) * 1.35); // 1.15 -> 2.5
+    const flaresScale = 1.15 + (Math.min(scrollTop / 900, 1) * 1.35);
     layerFlares.style.opacity = flaresOpacity * 0.8;
     layerFlares.style.transform = `translateZ(-3px) scale(${flaresScale})`;
 
-    // 5. Layer 5: Grass Pitch (ピッチに着地)
-    // 600pxから出現、1000pxで完全にピッチレベルへ
     let pitchRatio = 0;
     if (scrollTop > 600) {
       pitchRatio = Math.min((scrollTop - 600) / 400, 1);
     }
     const pitchOpacity = pitchRatio;
-    const pitchScale = 1.4 - (pitchRatio * 0.4); // 1.4 -> 1.0 (ベッドに見えないようズーム倍率を抑制)
-    const pitchBrightness = 0.6 + (pitchRatio * 0.35); // 0.6 -> 0.95 (夢の世界のように白く発光させる明るさ)
+    const pitchScale = 1.4 - (pitchRatio * 0.4);
+    const pitchBrightness = 0.6 + (pitchRatio * 0.35);
     layerPitch.style.opacity = pitchOpacity;
     layerPitch.style.transform = `translateZ(0px) scale(${pitchScale})`;
     layerPitch.style.filter = `brightness(${pitchBrightness}) contrast(1.05)`;
 
-    // 6. Gold Hero Logo (奥へ通り抜けフェードアウト)
     if (mainGoldLogo) {
       const logoRatio = Math.min(scrollTop / 400, 1);
       mainGoldLogo.style.opacity = 1 - logoRatio;
       mainGoldLogo.style.transform = `scale(${1.0 + logoRatio * 0.8}) translateY(${-logoRatio * 50}px)`;
     }
 
-    // 7. Overlay Gradient (暗さの調整)
     if (layerOverlay) {
       layerOverlay.style.opacity = 0.5 + (ratio * 0.45);
     }
     
-    // 8. Content (ホログラムパネル & トーナメント表)
-    // 950pxから出現開始、1150pxで展開（着地演出の同期）
     if (controlCenter && bracketContainer) {
       let contentRatio = 0;
       if (scrollTop > 950) {
@@ -1081,24 +1076,21 @@ if (parallaxContainer && layerSky && layerRoof && layerStands && layerFlares && 
       bracketContainer.style.opacity = contentRatio;
       bracketContainer.style.transform = `translateY(${50 - (contentRatio * 50)}px)`;
 
-      // ホログラム着地展開トリガー (一度だけレーザースキャンを発火)
       if (scrollTop > 1050 && !hasScannedHologram) {
         hasScannedHologram = true;
         bracketContainer.classList.add('laser-scanning');
-        // 効果音も動的に合成して鳴らす
         playSwooshSound();
         setTimeout(() => {
           bracketContainer.classList.remove('laser-scanning');
-        }, 2500); // アニメーション終了後にクラスを外す
+        }, 2500);
       } else if (scrollTop < 900) {
-        // スクリプトで再度上に戻ったらフラグをリセットして再スキャン可能に
         hasScannedHologram = false;
       }
     }
   });
 }
 
-// ビューポート切り替え（モバイル対応）
+// ビューポート切り替え
 document.querySelectorAll('.view-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
@@ -1107,7 +1099,7 @@ document.querySelectorAll('.view-btn').forEach(btn => {
     const view = btn.getAttribute('data-view');
     const viewContainer = document.getElementById('bracket-view');
     
-    viewContainer.className = 'bracket-container'; // クラスリセット
+    viewContainer.className = 'bracket-container';
     if (view !== 'all') {
       viewContainer.classList.add(`view-${view}`);
     }
@@ -1128,7 +1120,6 @@ document.getElementById('reset-btn').addEventListener('click', resetBracket);
 
 // 初期ロード時に起動
 window.addEventListener('DOMContentLoaded', () => {
-  // 言語セレクトボックスのオプション動的生成 (主要60言語)
   const selectEl = document.getElementById('lang-select');
   if (selectEl) {
     selectEl.innerHTML = "";
@@ -1140,38 +1131,49 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  loadFifa3rdPlaceMapping(); // FIFA 3位マッピングをロード
-  setLanguage('ja');         // デフォルト日本語
-  startRealtimeUpdates();    // リアルタイム確率更新タイマーの開始
-  loadLiveFootballData();    // ライブデータを初期ロード
+  loadFifa3rdPlaceMapping();
+  setLanguage('ja');
+  startRealtimeUpdates();
+  loadLiveFootballData();
   
-  // 15秒間隔でローカルのライブデータを同期（10リクエスト/分制限を回避する最大頻度）
   setInterval(loadLiveFootballData, 15000); 
+
+  // 各種SNSシェア・画像保存ボタンのイベント紐づけ
+  const shareXBtn = document.getElementById('share-x-btn');
+  if (shareXBtn) {
+    shareXBtn.addEventListener('click', shareOnX);
+  }
+  const shareLineBtn = document.getElementById('share-line-btn');
+  if (shareLineBtn) {
+    shareLineBtn.addEventListener('click', shareOnLine);
+  }
+  const shareWaBtn = document.getElementById('share-wa-btn');
+  if (shareWaBtn) {
+    shareWaBtn.addEventListener('click', shareOnWhatsApp);
+  }
+  const saveImgBtn = document.getElementById('save-img-btn');
+  if (saveImgBtn) {
+    saveImgBtn.addEventListener('click', saveBracketAsImage);
+  }
 });
 
-// リアルタイム確率更新ロジック (数秒ごとに微変動をシミュレート)
+// リアルタイム確率更新ロジック
 function startRealtimeUpdates() {
   setInterval(() => {
-    // 優勝国が決まってロックされている場合は確率の更新も一時停止
     if (isBracketLocked) return;
 
     Object.keys(groupSlots).forEach(key => {
       const slot = groupSlots[key];
       if (!slot.confirmed && slot.candidates.length > 1) {
-        // -0.2% から +0.2% の範囲で微小に変動
         const delta = (Math.random() * 0.4 - 0.2);
-        
-        // 最初の候補の確率を増減
         let newProb0 = parseFloat((slot.candidates[0].prob + delta).toFixed(2));
         
-        // 2候補の場合
         if (slot.candidates.length === 2) {
           if (newProb0 > 5 && newProb0 < 95) {
             slot.candidates[0].prob = newProb0;
             slot.candidates[1].prob = parseFloat((100.00 - newProb0).toFixed(2));
           }
         } 
-        // 3候補の場合
         else if (slot.candidates.length === 3) {
           let newProb1 = parseFloat((slot.candidates[1].prob - (delta / 2)).toFixed(2));
           if (newProb0 > 5 && newProb0 < 90 && newProb1 > 5 && newProb1 < 90) {
@@ -1183,12 +1185,11 @@ function startRealtimeUpdates() {
       }
     });
 
-    // 画面上の数値を更新
     updateProbabilityUI();
-  }, 4000); // 4秒ごとに変動
+  }, 4000);
 }
 
-// 確率表示UIのみを動的かつ軽量に書き換える (ブラケット全体を再描画せず、%数値のみ更新)
+// 確率表示UI更新
 function updateProbabilityUI() {
   document.querySelectorAll('.team-slot').forEach(slotEl => {
     const matchBox = slotEl.closest('.match-box');
@@ -1197,7 +1198,6 @@ function updateProbabilityUI() {
     const matchId = matchBox.id.replace('match-', '');
     const match = matches[matchId];
     
-    // スロットがチーム1かチーム2か判定
     const isTeam1 = slotEl.classList.contains('winner-selected') || 
                      (slotEl.nextElementSibling !== null && slotEl.nextElementSibling.classList.contains('team-slot'));
                      
@@ -1217,7 +1217,6 @@ function updateProbabilityUI() {
           
           if (oldVal !== newVal) {
             probTextEl.textContent = `${newVal.toFixed(2)}%`;
-            // 数値変化時に一瞬ネオンブルーに光らせるエフェクト
             probTextEl.style.color = 'var(--color-primary)';
             probTextEl.style.transition = 'color 0.1s ease';
             setTimeout(() => {
@@ -1230,9 +1229,7 @@ function updateProbabilityUI() {
   });
 }
 
-// =====================================================================
-// リアルタイムデータ同期エンジン (football-data.org 連携)
-// =====================================================================
+// リアルタイムデータ同期エンジン
 function loadLiveFootballData() {
   fetch('live_standings.json')
     .then(res => {
@@ -1311,7 +1308,6 @@ function applyLiveStandings(data) {
           structuralChange = true;
         }
         
-        // 敗退が数学的に確定しているチームを除外
         const teamMaxPoints = {};
         table.forEach(t => {
           const remainingGames = 3 - t.playedGames;

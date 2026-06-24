@@ -688,3 +688,51 @@ footer { margin-top: auto; border-top: 1px solid var(--color-border); padding: 2
   body::before, .veil-orb, .trophy-icon, .scroll-indicator, .dream-particles span { animation: none !important; }
   html { scroll-behavior: auto; }
 }
+
+/* SNS share and save image buttons */
+.btn-share-x {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.btn-share-x:hover {
+  background: #14171a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.2);
+}
+.btn-share-line {
+  background: #06C755;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(6, 199, 85, 0.3);
+}
+.btn-share-line:hover {
+  background: #05b04b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(6, 199, 85, 0.5);
+}
+.btn-share-wa {
+  background: #25D366;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+.btn-share-wa:hover {
+  background: #20ba5a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+.btn-save-img {
+  background: linear-gradient(135deg, var(--color-accent), #d4af37);
+  color: #1a1a1a;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+.btn-save-img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+}
+
+/* Ensure flex wrap for control center actions on smaller screens */
+.control-actions {
+  flex-wrap: wrap;
+  justify-content: center;
+}

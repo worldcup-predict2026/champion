@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FIFA World Cup 2026 — Dream Bracket</title>
+  <meta name="description" content="FIFAワールドカップ2026のインタラクティブ・トーナメント予想シミュレーター。実際のグループ抽選データや各チームの実力値、リアルタイムAPIデータに基づき、AI予想や手動予想で優勝国をシミュレートできます。">
+  <meta name="keywords" content="ワールドカップ, 2026, W杯, トーナメント予想, シミュレータ, AI予想, サッカー">
+  
+  <!-- Open Graph Protocol (OGP) for SNS sharing -->
+  <meta property="og:title" content="FIFA World Cup 2026 — Dream Bracket Predictor">
+  <meta property="og:description" content="48カ国のチーム力とリアルタイムデータを元に、あなたの手で2026年W杯の優勝国をシミュレート・予想しよう！">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FIFA World Cup 2026 — Dream Bracket Predictor">
+  <meta name="twitter:description" content="48カ国のチーム力とリアルタイムデータを元に、あなたの手で2026年W杯の優勝国をシミュレート・予想しよう！">
+
   <link rel="stylesheet" href="styles.css">
   <!-- Google Fonts: Inter & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +24,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- Canvas Confetti for celebratory effects -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <!-- html2canvas for saving bracket as image -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
 
@@ -118,6 +131,18 @@
           </button>
           <button id="live-toggle" class="btn btn-live active" title="Live group-stage updates">
             <span class="live-dot"></span> <span class="live-label">LIVE 自動進行 ON</span>
+          </button>
+          <button id="share-x-btn" class="btn btn-share-x" title="Share your prediction on X">
+            <i class="fa-brands fa-x-twitter"></i> <span>X</span>
+          </button>
+          <button id="share-line-btn" class="btn btn-share-line" title="Share your prediction on LINE">
+            <i class="fa-brands fa-line"></i> <span>LINE</span>
+          </button>
+          <button id="share-wa-btn" class="btn btn-share-wa" title="Share your prediction on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
+          </button>
+          <button id="save-img-btn" class="btn btn-save-img" title="Download bracket as image">
+            <i class="fa-solid fa-download"></i> <span>画像で保存</span>
           </button>
         </div>
       </div>
