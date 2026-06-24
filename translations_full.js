@@ -381,3 +381,6 @@ const allTeamTranslations = {
     "Iraq": "伊拉克", "Jordan": "约旦", "DR Congo": "民主刚果", "Ghana": "加纳"
   }
 };
+
+window.allTranslations = allTranslations;
+window.allTeamTranslations = allTeamTranslations;

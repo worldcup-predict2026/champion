@@ -210,11 +210,14 @@ const teamTranslations = {
 };
 
 // translations_full.js で読み込まれる完全な多言語データをマージ
-if (typeof allTranslations !== 'undefined') {
-  Object.assign(translations, allTranslations);
+const globalTrans = window.allTranslations || (typeof allTranslations !== 'undefined' ? allTranslations : null);
+const globalTeamTrans = window.allTeamTranslations || (typeof allTeamTranslations !== 'undefined' ? allTeamTranslations : null);
+
+if (globalTrans) {
+  Object.assign(translations, globalTrans);
 }
-if (typeof allTeamTranslations !== 'undefined') {
-  Object.assign(teamTranslations, allTeamTranslations);
+if (globalTeamTrans) {
+  Object.assign(teamTranslations, globalTeamTrans);
 }
 
 // チームの実力（強さ）レーティング - AI予測時に使用
@@ -468,23 +471,11 @@ function applyAnnexC() {
   const allocation = fifa3rdPlaceMapping[combinationKey];
 
   if (allocation) {
-    Object.keys(allocation).forEach(targetGroup => {
-      const sourceGroup = allocation[targetGroup];
+    Object.keys(allocation).forEach(slotName => {
+      const sourceGroup = allocation[slotName];
       const team3rd = group3rdPlaceTeams[sourceGroup] || "TBD";
       
-      const mappingToSlotName = {
-        "1E": "3rd_A_B_C_D_F",
-        "1I": "3rd_C_D_F_G_H",
-        "1A": "3rd_C_E_F_H_I",
-        "1L": "3rd_E_H_I_J_K",
-        "1D": "3rd_B_E_F_I_J",
-        "1G": "3rd_A_E_H_I_J",
-        "1B": "3rd_E_F_G_I_J",
-        "1K": "3rd_D_E_I_J_L"
-      };
-      
-      const slotName = mappingToSlotName[targetGroup];
-      if (slotName && groupSlots[slotName]) {
+      if (groupSlots[slotName]) {
         groupSlots[slotName].current = team3rd;
       }
     });
