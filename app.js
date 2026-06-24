@@ -175,7 +175,7 @@ const teamTranslations = {
     "Senegal": "Senegal", "Argentina": "Argentina", "Austria": "Austria", "Algeria": "Algeria",
     "Portugal": "Portugal", "Colombia": "Colombia", "Uzbekistan": "Uzbekistan", "England": "England",
     "Croatia": "Croatia", "Panama": "Panama", "TBD": "TBD",
-    "Czechia": "Czechia", "Bosnia and Herzegovina": "Bosnia and Herzegovina", "Qatar": "Qatar", "Haiti": "Haiti",
+    "Czechia": "Czechia", "Bosnia-Herzegovina": "Bosnia-Herzegovina", "Qatar": "Qatar", "Haiti": "Haiti",
     "Curaçao": "Curaçao", "Tunisia": "Tunisia", "New Zealand": "New Zealand", "Cape Verde": "Cape Verde",
     "Iraq": "Iraq", "Jordan": "Jordan", "DR Congo": "DR Congo", "Ghana": "Ghana"
   },
@@ -189,7 +189,7 @@ const teamTranslations = {
     "Senegal": "セネガル", "Argentina": "アルゼンチン", "Austria": "オーストリア", "Algeria": "アルジェリア",
     "Portugal": "ポルトガル", "Colombia": "コロンビア", "Uzbekistan": "ウズベキスタン", "England": "イングランド",
     "Croatia": "クロアチア", "Panama": "パナマ", "TBD": "未決定",
-    "Czechia": "チェコ", "Bosnia and Herzegovina": "ボスニア・ヘルツェゴビナ", "Qatar": "カタール", "Haiti": "ハイチ",
+    "Czechia": "チェコ", "Bosnia-Herzegovina": "ボスニア・ヘルツェゴビナ", "Qatar": "カタール", "Haiti": "ハイチ",
     "Curaçao": "キュラソー", "Tunisia": "チュニジア", "New Zealand": "ニュージーランド", "Cape Verde": "カーボベルデ",
     "Iraq": "イラク", "Jordan": "ヨルダン", "DR Congo": "DRコンゴ", "Ghana": "ガーナ"
   },
@@ -203,7 +203,7 @@ const teamTranslations = {
     "Senegal": "Senegal", "Argentina": "Argentina", "Austria": "Austria", "Algeria": "Argelia",
     "Portugal": "Portugal", "Colombia": "Colombia", "Uzbekistan": "Uzbekistán", "England": "Inglaterra",
     "Croatia": "Croacia", "Panama": "Panamá", "TBD": "Por determinar",
-    "Czechia": "República Checa", "Bosnia and Herzegovina": "Bosnia y Herzegovina", "Qatar": "Catar", "Haiti": "Haití",
+    "Czechia": "República Checa", "Bosnia-Herzegovina": "Bosnia y Herzegovina", "Qatar": "Catar", "Haiti": "Haití",
     "Curaçao": "Curazao", "Tunisia": "Túnez", "New Zealand": "Nueva Zelanda", "Cape Verde": "Cabo Verde",
     "Iraq": "Irak", "Jordan": "Jordania", "DR Congo": "RD Congo", "Ghana": "Ghana"
   }
@@ -229,7 +229,7 @@ const teamStrengths = {
   "Sweden": 75, "Ecuador": 74, "Norway": 74, "Australia": 73, "Paraguay": 72,
   "Ivory Coast": 72, "South Africa": 68, "Egypt": 68, "Saudi Arabia": 67,
   "Scotland": 66, "Algeria": 66, "Canada": 65, "Uzbekistan": 64, "Iran": 63,
-  "Panama": 61, "Ghana": 71, "DR Congo": 69, "Tunisia": 70, "Bosnia and Herzegovina": 68,
+  "Panama": 61, "Ghana": 71, "DR Congo": 69, "Tunisia": 70, "Bosnia-Herzegovina": 68,
   "Cape Verde": 67, "Qatar": 65, "Iraq": 65, "Jordan": 64, "New Zealand": 63,
   "Czechia": 74, "Haiti": 60, "Curaçao": 58, "TBD": 10
 };
@@ -245,7 +245,7 @@ const teamCodes = {
   "Senegal": "SN", "Argentina": "AR", "Austria": "AT", "Algeria": "DZ",
   "Portugal": "PT", "Colombia": "CO", "Uzbekistan": "UZ", "England": "GB-ENG",
   "Croatia": "HR", "Panama": "PA",
-  "Czechia": "CZ", "Bosnia and Herzegovina": "BA", "Qatar": "QA", "Haiti": "HT",
+  "Czechia": "CZ", "Bosnia-Herzegovina": "BA", "Qatar": "QA", "Haiti": "HT",
   "Curaçao": "CW", "Tunisia": "TN", "New Zealand": "NZ", "Cape Verde": "CV",
   "Iraq": "IQ", "Jordan": "JO", "DR Congo": "CD", "Ghana": "GH", "TBD": "?"
 };
@@ -255,7 +255,7 @@ const initialGroupSlots = {
   "1A": { confirmed: true, current: "Mexico", candidates: [{ name: "Mexico", prob: 100.00 }] },
   "2A": { confirmed: false, current: "South Korea", candidates: [{ name: "South Korea", prob: 50.12 }, { name: "South Africa", prob: 28.45 }, { name: "Czechia", prob: 21.43 }] },
   "1B": { confirmed: false, current: "Canada", candidates: [{ name: "Canada", prob: 65.23 }, { name: "Switzerland", prob: 34.77 }] },
-  "2B": { confirmed: false, current: "Switzerland", candidates: [{ name: "Switzerland", prob: 55.42 }, { name: "Bosnia and Herzegovina", prob: 29.84 }, { name: "Qatar", prob: 14.74 }] },
+  "2B": { confirmed: false, current: "Switzerland", candidates: [{ name: "Switzerland", prob: 55.42 }, { name: "Bosnia-Herzegovina", prob: 29.84 }, { name: "Qatar", prob: 14.74 }] },
   "1C": { confirmed: false, current: "Brazil", candidates: [{ name: "Brazil", prob: 75.42 }, { name: "Morocco", prob: 24.58 }] },
   "2C": { confirmed: false, current: "Morocco", candidates: [{ name: "Morocco", prob: 58.34 }, { name: "Scotland", prob: 31.42 }, { name: "Haiti", prob: 10.24 }] },
   "1D": { confirmed: true, current: "USA", candidates: [{ name: "USA", prob: 100.00 }] },
@@ -283,7 +283,7 @@ const initialGroupSlots = {
   "3rd_C_E_F_H_I": { confirmed: false, current: "Ecuador", candidates: [{ name: "Ecuador", prob: 60.12 }, { name: "Cape Verde", prob: 24.63 }, { name: "Senegal", prob: 15.25 }] },
   "3rd_E_H_I_J_K": { confirmed: false, current: "Ivory Coast", candidates: [{ name: "Ivory Coast", prob: 54.78 }, { name: "Austria", prob: 29.85 }, { name: "DR Congo", prob: 15.37 }] },
   "3rd_B_E_F_I_J": { confirmed: false, current: "Switzerland", candidates: [{ name: "Switzerland", prob: 49.61 }, { name: "Norway", prob: 35.12 }, { name: "Algeria", prob: 15.27 }] },
-  "3rd_A_E_H_I_J": { confirmed: false, current: "South Korea", candidates: [{ name: "South Korea", prob: 40.23 }, { name: "Bosnia and Herzegovina", prob: 34.62 }, { name: "Jordan", prob: 25.15 }] },
+  "3rd_A_E_H_I_J": { confirmed: false, current: "South Korea", candidates: [{ name: "South Korea", prob: 40.23 }, { name: "Bosnia-Herzegovina", prob: 34.62 }, { name: "Jordan", prob: 25.15 }] },
   "3rd_E_F_G_I_J": { confirmed: false, current: "Japan", candidates: [{ name: "Japan", prob: 64.85 }, { name: "Sweden", prob: 25.07 }, { name: "Egypt", prob: 10.08 }] },
   "3rd_D_E_I_J_L": { confirmed: false, current: "Croatia", candidates: [{ name: "Croatia", prob: 50.11 }, { name: "Ghana", prob: 30.14 }, { name: "Paraguay", prob: 19.75 }] },
 };
@@ -293,7 +293,7 @@ let groupSlots = JSON.parse(JSON.stringify(initialGroupSlots));
 
 // 3位枠配置決定用 (Annex C)
 const group3rdPlaceTeams = {
-  A: "Czechia", B: "Bosnia and Herzegovina", C: "Scotland", D: "Australia",
+  A: "Czechia", B: "Bosnia-Herzegovina", C: "Scotland", D: "Australia",
   E: "Ivory Coast", F: "Sweden", G: "Egypt", H: "Cape Verde", I: "Senegal",
   J: "Algeria", K: "DR Congo", L: "Ghana"
 };
@@ -455,7 +455,7 @@ function applyAnnexC() {
   const groupFinder = {
     "Sweden": "F", "Morocco": "C", "Ecuador": "E", "Ivory Coast": "E",
     "Switzerland": "B", "South Korea": "A", "Japan": "F", "Croatia": "L",
-    "Czechia": "A", "Bosnia and Herzegovina": "B", "Scotland": "C", "Australia": "D",
+    "Czechia": "A", "Bosnia-Herzegovina": "B", "Scotland": "C", "Australia": "D",
     "Egypt": "G", "Cape Verde": "H", "Senegal": "I", "Algeria": "J",
     "DR Congo": "K", "Ghana": "L", "Tunisia": "F"
   };
@@ -1179,30 +1179,6 @@ window.addEventListener('DOMContentLoaded', () => {
 function startRealtimeUpdates() {
   setInterval(() => {
     if (isBracketLocked) return;
-
-    Object.keys(groupSlots).forEach(key => {
-      const slot = groupSlots[key];
-      if (!slot.confirmed && slot.candidates.length > 1) {
-        const delta = (Math.random() * 0.4 - 0.2);
-        let newProb0 = parseFloat((slot.candidates[0].prob + delta).toFixed(2));
-        
-        if (slot.candidates.length === 2) {
-          if (newProb0 > 5 && newProb0 < 95) {
-            slot.candidates[0].prob = newProb0;
-            slot.candidates[1].prob = parseFloat((100.00 - newProb0).toFixed(2));
-          }
-        } 
-        else if (slot.candidates.length === 3) {
-          let newProb1 = parseFloat((slot.candidates[1].prob - (delta / 2)).toFixed(2));
-          if (newProb0 > 5 && newProb0 < 90 && newProb1 > 5 && newProb1 < 90) {
-            slot.candidates[0].prob = newProb0;
-            slot.candidates[1].prob = newProb1;
-            slot.candidates[2].prob = parseFloat((100.00 - newProb0 - newProb1).toFixed(2));
-          }
-        }
-      }
-    });
-
     updateProbabilityUI();
   }, 4000);
 }
@@ -1216,8 +1192,8 @@ function updateProbabilityUI() {
     const matchId = matchBox.id.replace('match-', '');
     const match = matches[matchId];
     
-    const isTeam1 = slotEl.classList.contains('winner-selected') || 
-                     (slotEl.nextElementSibling !== null && slotEl.nextElementSibling.classList.contains('team-slot'));
+    const teamSlotsInBox = Array.from(matchBox.querySelectorAll('.team-slot'));
+    const isTeam1 = teamSlotsInBox.indexOf(slotEl) === 0;
                      
     const teamName = isTeam1 ? match.team1Name : match.team2Name;
     const participant = isTeam1 ? match.team1 : match.team2;
@@ -1247,112 +1223,306 @@ function updateProbabilityUI() {
   });
 }
 
+let latestStandingsData = null;
+let latestMatchesData = null;
+
 // リアルタイムデータ同期エンジン
 function loadLiveFootballData() {
-  fetch('live_standings.json')
-    .then(res => {
+  Promise.all([
+    fetch('live_standings.json').then(res => {
       if (!res.ok) throw new Error("No live standings file found");
       return res.json();
-    })
-    .then(data => {
-      applyLiveStandings(data);
-    })
-    .catch(err => console.log("Live standings load error:", err.message));
-
-  fetch('live_matches.json')
-    .then(res => {
+    }),
+    fetch('live_matches.json').then(res => {
       if (!res.ok) throw new Error("No live matches file found");
       return res.json();
     })
-    .then(data => {
-      applyLiveMatches(data);
-    })
-    .catch(err => console.log("Live matches load error:", err.message));
+  ])
+  .then(([standingsData, matchesData]) => {
+    latestStandingsData = standingsData;
+    latestMatchesData = matchesData;
+    
+    // ライブ試合詳細カードなどの描画処理
+    applyLiveMatches(matchesData);
+    
+    // グループステージ順位確率シミュレーションおよびスロット更新
+    runGroupStageSimulation(standingsData, matchesData);
+  })
+  .catch(err => {
+    console.log("Live data load error:", err.message);
+  });
 }
 
-function applyLiveStandings(data) {
-  if (!data || !data.standings) return;
-  
-  let structuralChange = false;
-  
-  data.standings.forEach(groupStanding => {
-    const groupChar = groupStanding.group.replace("Group ", "").trim();
+function runGroupStageSimulation(standingsData, matchesData) {
+  if (!standingsData || !standingsData.standings || !matchesData || !matchesData.matches) return;
+
+  const standings = standingsData.standings;
+  const matches = matchesData.matches;
+
+  // 1. 各グループのデータをパース
+  const groups = {}; // A ~ L
+  standings.forEach(gs => {
+    const groupChar = gs.group.replace("Group ", "").trim();
     if (!groupChar || groupChar.length !== 1) return;
     
-    const table = groupStanding.table;
-    if (!table || table.length < 4) return;
-    
-    const isCompleted = table.every(t => t.playedGames >= 3);
-    
-    const team3rd = table[2].team.name;
-    if (group3rdPlaceTeams[groupChar] !== team3rd) {
-      group3rdPlaceTeams[groupChar] = team3rd;
-      structuralChange = true;
-    }
-    
-    const firstPlaceTeam = table[0].team.name;
-    const secondPlaceTeam = table[1].team.name;
-    
-    const slot1 = groupSlots["1" + groupChar];
-    const slot2 = groupSlots["2" + groupChar];
-    
-    if (slot1) {
-      if (isCompleted) {
-        if (!slot1.confirmed || slot1.current !== firstPlaceTeam) {
-          slot1.confirmed = true;
-          slot1.current = firstPlaceTeam;
-          slot1.candidates = [{ name: firstPlaceTeam, prob: 100 }];
-          structuralChange = true;
-        }
-      } else {
-        if (slot1.current !== firstPlaceTeam) {
-          slot1.current = firstPlaceTeam;
-          structuralChange = true;
-        }
-      }
-    }
-    
-    if (slot2) {
-      if (isCompleted) {
-        if (!slot2.confirmed || slot2.current !== secondPlaceTeam) {
-          slot2.confirmed = true;
-          slot2.current = secondPlaceTeam;
-          slot2.candidates = [{ name: secondPlaceTeam, prob: 100 }];
-          structuralChange = true;
-        }
-      } else {
-        if (slot2.current !== secondPlaceTeam) {
-          slot2.current = secondPlaceTeam;
-          structuralChange = true;
-        }
-        
-        const teamMaxPoints = {};
-        table.forEach(t => {
-          const remainingGames = 3 - t.playedGames;
-          teamMaxPoints[t.team.name] = t.points + (remainingGames * 3);
-        });
-        
-        const currentPoints = table.map(t => t.points).sort((a, b) => b - a);
-        const cutoffPoints = currentPoints[1] || 0;
-        
-        const activeCandidates = slot2.candidates.filter(c => {
-          const teamName = c.name;
-          const tableEntry = table.find(t => t.team.name === teamName);
-          if (!tableEntry) return true;
-          if (teamMaxPoints[teamName] < cutoffPoints) {
-            return false;
-          }
-          return true;
-        });
-        
-        if (activeCandidates.length !== slot2.candidates.length) {
-          slot2.candidates = activeCandidates;
-          structuralChange = true;
-        }
-      }
+    groups[groupChar] = {
+      teams: gs.table.map(t => ({
+        name: t.team.name,
+        points: t.points,
+        playedGames: t.playedGames,
+        goalsFor: t.goalsFor,
+        goalsAgainst: t.goalsAgainst,
+        goalDifference: t.goalDifference
+      })),
+      remainingMatches: []
+    };
+  });
+
+  // 2. 未消化のグループステージ試合を抽出
+  matches.forEach(m => {
+    if (m.stage !== "GROUP_STAGE") return;
+    const groupChar = m.group.replace("GROUP_", "").trim();
+    if (!groups[groupChar]) return;
+
+    if (m.status !== "FINISHED") {
+      groups[groupChar].remainingMatches.push({
+        home: m.homeTeam.name,
+        away: m.awayTeam.name
+      });
     }
   });
+
+  // 各試行でカウントする用
+  const slotCounts = {};
+  const slotKeys = [];
+  for (let i = 65; i <= 76; i++) { // A to L
+    const g = String.fromCharCode(i);
+    slotKeys.push(`1${g}`);
+    slotKeys.push(`2${g}`);
+    slotCounts[`1${g}`] = {};
+    slotCounts[`2${g}`] = {};
+  }
   
+  const slot3rdKeys = [
+    "3rd_A_B_C_D_F", "3rd_C_D_F_G_H", "3rd_C_E_F_H_I", "3rd_E_H_I_J_K", 
+    "3rd_B_E_F_I_J", "3rd_A_E_H_I_J", "3rd_E_F_G_I_J", "3rd_D_E_I_J_L"
+  ];
+  slot3rdKeys.forEach(k => {
+    slotCounts[k] = {};
+  });
+
+  const group3rdPlaceCounts = {};
+  for (let i = 65; i <= 76; i++) {
+    const g = String.fromCharCode(i);
+    group3rdPlaceCounts[g] = {};
+  }
+
+  const NUM_SIMULATIONS = 1000;
+
+  for (let sim = 0; sim < NUM_SIMULATIONS; sim++) {
+    const simGroupResults = {};
+
+    Object.keys(groups).forEach(g => {
+      const groupData = groups[g];
+      const teamsCopy = groupData.teams.map(t => ({ ...t }));
+
+      groupData.remainingMatches.forEach(match => {
+        const homeTeam = teamsCopy.find(t => t.name === match.home);
+        const awayTeam = teamsCopy.find(t => t.name === match.away);
+        if (!homeTeam || !awayTeam) return;
+
+        const sH = teamStrengths[match.home] || 70;
+        const sA = teamStrengths[match.away] || 70;
+
+        const wH = Math.exp((sH - sA) / 20) * 1.2;
+        const wA = Math.exp((sA - sH) / 20) * 1.2;
+        const wD = 1.0;
+        const totalW = wH + wA + wD;
+
+        const r = Math.random() * totalW;
+        if (r < wH) {
+          homeTeam.points += 3;
+          homeTeam.goalsFor += 2;
+          homeTeam.goalsAgainst += 1;
+          homeTeam.goalDifference += 1;
+          awayTeam.goalsFor += 1;
+          awayTeam.goalsAgainst += 2;
+          awayTeam.goalDifference -= 1;
+        } else if (r < wH + wA) {
+          awayTeam.points += 3;
+          awayTeam.goalsFor += 2;
+          awayTeam.goalsAgainst += 1;
+          awayTeam.goalDifference += 1;
+          homeTeam.goalsFor += 1;
+          homeTeam.goalsAgainst += 2;
+          homeTeam.goalDifference -= 1;
+        } else {
+          homeTeam.points += 1;
+          homeTeam.goalsFor += 1;
+          homeTeam.goalsAgainst += 1;
+          awayTeam.points += 1;
+          awayTeam.goalsFor += 1;
+          awayTeam.goalsAgainst += 1;
+        }
+        homeTeam.playedGames += 1;
+        awayTeam.playedGames += 1;
+      });
+
+      teamsCopy.sort((a, b) => {
+        if (b.points !== a.points) return b.points - a.points;
+        if (b.goalDifference !== a.goalDifference) return b.goalDifference - a.goalDifference;
+        if (b.goalsFor !== a.goalsFor) return b.goalsFor - a.goalsFor;
+        const strengthA = teamStrengths[a.name] || 70;
+        const strengthB = teamStrengths[b.name] || 70;
+        return strengthB - strengthA;
+      });
+
+      simGroupResults[g] = teamsCopy;
+    });
+
+    Object.keys(simGroupResults).forEach(g => {
+      const table = simGroupResults[g];
+      const t1 = table[0].name;
+      const t2 = table[1].name;
+      const t3 = table[2].name;
+
+      slotCounts[`1${g}`][t1] = (slotCounts[`1${g}`][t1] || 0) + 1;
+      slotCounts[`2${g}`][t2] = (slotCounts[`2${g}`][t2] || 0) + 1;
+      group3rdPlaceCounts[g][t3] = (group3rdPlaceCounts[g][t3] || 0) + 1;
+    });
+
+    const thirdPlaceTeams = [];
+    Object.keys(simGroupResults).forEach(g => {
+      const t3 = simGroupResults[g][2];
+      thirdPlaceTeams.push({
+        group: g,
+        name: t3.name,
+        points: t3.points,
+        goalDifference: t3.goalDifference,
+        goalsFor: t3.goalsFor
+      });
+    });
+
+    thirdPlaceTeams.sort((a, b) => {
+      if (b.points !== a.points) return b.points - a.points;
+      if (b.goalDifference !== a.goalDifference) return b.goalDifference - a.goalDifference;
+      if (b.goalsFor !== a.goalsFor) return b.goalsFor - a.goalsFor;
+      const strengthA = teamStrengths[a.name] || 70;
+      const strengthB = teamStrengths[b.name] || 70;
+      return strengthB - strengthA;
+    });
+
+    const qualified3rdGroups = [];
+    const qualified3rdTeamsByGroup = {};
+    for (let i = 0; i < 8; i++) {
+      qualified3rdGroups.push(thirdPlaceTeams[i].group);
+      qualified3rdTeamsByGroup[thirdPlaceTeams[i].group] = thirdPlaceTeams[i].name;
+    }
+
+    if (fifa3rdPlaceMapping) {
+      const combinationKey = qualified3rdGroups.sort().join("");
+      const allocation = fifa3rdPlaceMapping[combinationKey];
+      if (allocation) {
+        Object.keys(allocation).forEach(slotName => {
+          const sourceGroup = allocation[slotName];
+          const teamName = qualified3rdTeamsByGroup[sourceGroup] || "TBD";
+          slotCounts[slotName][teamName] = (slotCounts[slotName][teamName] || 0) + 1;
+        });
+      }
+    }
+  }
+
+  let structuralChange = false;
+
+  slotKeys.forEach(slotKey => {
+    const counts = slotCounts[slotKey];
+    const candidates = [];
+    Object.keys(counts).forEach(teamName => {
+      const prob = parseFloat(((counts[teamName] / NUM_SIMULATIONS) * 100).toFixed(2));
+      if (prob >= 0.1) {
+        candidates.push({ name: teamName, prob });
+      }
+    });
+
+    candidates.sort((a, b) => b.prob - a.prob);
+
+    if (candidates.length === 0) return;
+
+    const highestCandidate = candidates[0];
+    const isCompletedGroup = groups[slotKey.substring(1)].remainingMatches.length === 0;
+
+    const oldConfirmed = groupSlots[slotKey].confirmed;
+    const oldCurrent = groupSlots[slotKey].current;
+
+    const newConfirmed = isCompletedGroup || (highestCandidate.prob >= 99.9);
+    const newCurrent = highestCandidate.name;
+
+    let newCandidates = candidates;
+    if (newConfirmed) {
+      newCandidates = [{ name: newCurrent, prob: 100.00 }];
+    }
+
+    if (oldConfirmed !== newConfirmed || oldCurrent !== newCurrent || JSON.stringify(groupSlots[slotKey].candidates) !== JSON.stringify(newCandidates)) {
+      groupSlots[slotKey].confirmed = newConfirmed;
+      groupSlots[slotKey].current = newCurrent;
+      groupSlots[slotKey].candidates = newCandidates;
+      structuralChange = true;
+    }
+  });
+
+  slot3rdKeys.forEach(slotKey => {
+    const counts = slotCounts[slotKey];
+    const candidates = [];
+    Object.keys(counts).forEach(teamName => {
+      const prob = parseFloat(((counts[teamName] / NUM_SIMULATIONS) * 100).toFixed(2));
+      if (prob >= 0.1) {
+        candidates.push({ name: teamName, prob });
+      }
+    });
+
+    candidates.sort((a, b) => b.prob - a.prob);
+
+    if (candidates.length === 0) return;
+
+    const highestCandidate = candidates[0];
+    const allCompleted = Object.keys(groups).every(g => groups[g].remainingMatches.length === 0);
+    const newConfirmed = allCompleted || (highestCandidate.prob >= 99.9);
+    const newCurrent = highestCandidate.name;
+
+    let newCandidates = candidates;
+    if (newConfirmed) {
+      newCandidates = [{ name: newCurrent, prob: 100.00 }];
+    }
+
+    const oldConfirmed = groupSlots[slotKey].confirmed;
+    const oldCurrent = groupSlots[slotKey].current;
+
+    if (oldConfirmed !== newConfirmed || oldCurrent !== newCurrent || JSON.stringify(groupSlots[slotKey].candidates) !== JSON.stringify(newCandidates)) {
+      groupSlots[slotKey].confirmed = newConfirmed;
+      groupSlots[slotKey].current = newCurrent;
+      groupSlots[slotKey].candidates = newCandidates;
+      structuralChange = true;
+    }
+  });
+
+  for (let i = 65; i <= 76; i++) {
+    const g = String.fromCharCode(i);
+    const counts = group3rdPlaceCounts[g];
+    let highestTeam = "TBD";
+    let highestCount = -1;
+    Object.keys(counts).forEach(teamName => {
+      if (counts[teamName] > highestCount) {
+        highestCount = counts[teamName];
+        highestTeam = teamName;
+      }
+    });
+
+    if (highestTeam !== "TBD" && group3rdPlaceTeams[g] !== highestTeam) {
+      group3rdPlaceTeams[g] = highestTeam;
+      structuralChange = true;
+    }
+  }
+
   if (structuralChange) {
     evaluateBracket();
     renderAll();

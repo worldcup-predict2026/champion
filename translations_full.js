@@ -278,7 +278,7 @@ const allTeamTranslations = {
     "Senegal": "Senegal", "Argentina": "Argentina", "Austria": "Austria", "Algeria": "Algeria",
     "Portugal": "Portugal", "Colombia": "Colombia", "Uzbekistan": "Uzbekistan", "England": "England",
     "Croatia": "Croatia", "Panama": "Panama", "TBD": "TBD",
-    "Czechia": "Czechia", "Bosnia and Herzegovina": "Bosnia and Herzegovina", "Qatar": "Qatar", "Haiti": "Haiti",
+    "Czechia": "Czechia", "Bosnia-Herzegovina": "Bosnia-Herzegovina", "Qatar": "Qatar", "Haiti": "Haiti",
     "Curaçao": "Curaçao", "Tunisia": "Tunisia", "New Zealand": "New Zealand", "Cape Verde": "Cape Verde",
     "Iraq": "Iraq", "Jordan": "Jordan", "DR Congo": "DR Congo", "Ghana": "Ghana"
   },
@@ -292,7 +292,7 @@ const allTeamTranslations = {
     "Senegal": "セネガル", "Argentina": "アルゼンチン", "Austria": "オーストリア", "Algeria": "アルジェリア",
     "Portugal": "ポルトガル", "Colombia": "コロンビア", "Uzbekistan": "ウズベキスタン", "England": "イングランド",
     "Croatia": "クロアチア", "Panama": "パナマ", "TBD": "未決定",
-    "Czechia": "チェコ", "Bosnia and Herzegovina": "ボスニア・ヘルツェゴビナ", "Qatar": "カタール", "Haiti": "ハイチ",
+    "Czechia": "チェコ", "Bosnia-Herzegovina": "ボスニア・ヘルツェゴビナ", "Qatar": "カタール", "Haiti": "ハイチ",
     "Curaçao": "キュラソー", "Tunisia": "チュニジア", "New Zealand": "ニュージーランド", "Cape Verde": "カーボベルデ",
     "Iraq": "イラク", "Jordan": "ヨルダン", "DR Congo": "DRコンゴ", "Ghana": "ガーナ"
   },
@@ -306,7 +306,7 @@ const allTeamTranslations = {
     "Senegal": "Senegal", "Argentina": "Argentina", "Austria": "Austria", "Algeria": "Argelia",
     "Portugal": "Portugal", "Colombia": "Colombia", "Uzbekistan": "Uzbekistán", "England": "Inglaterra",
     "Croatia": "Croacia", "Panama": "Panamá", "TBD": "Por determinar",
-    "Czechia": "República Checa", "Bosnia and Herzegovina": "Bosnia y Herzegovina", "Qatar": "Catar", "Haiti": "Haití",
+    "Czechia": "República Checa", "Bosnia-Herzegovina": "Bosnia y Herzegovina", "Qatar": "Catar", "Haiti": "Haití",
     "Curaçao": "Curazao", "Tunisia": "Túnez", "New Zealand": "Nueva Zelanda", "Cape Verde": "Cabo Verde",
     "Iraq": "Irak", "Jordan": "Jordania", "DR Congo": "RD Congo", "Ghana": "Ghana"
   },
@@ -320,7 +320,7 @@ const allTeamTranslations = {
     "Senegal": "Sénégal", "Argentina": "Argentine", "Austria": "Autriche", "Algeria": "Algérie",
     "Portugal": "Portugal", "Colombia": "Colombie", "Uzbekistan": "Ouzbékistan", "England": "Angleterre",
     "Croatia": "Croatie", "Panama": "Panama", "TBD": "À Déterminer",
-    "Czechia": "Tchéquie", "Bosnia and Herzegovina": "Bosnie-Herzégovine", "Qatar": "Qatar", "Haiti": "Haïti",
+    "Czechia": "Tchéquie", "Bosnia-Herzegovina": "Bosnie-Herzégovine", "Qatar": "Qatar", "Haiti": "Haïti",
     "Curaçao": "Curaçao", "Tunisia": "Tunisie", "New Zealand": "Nouvelle-Zélande", "Cape Verde": "Cap-Vert",
     "Iraq": "Irak", "Jordan": "Jordanie", "DR Congo": "RD Congo", "Ghana": "Ghana"
   },
@@ -334,7 +334,7 @@ const allTeamTranslations = {
     "Senegal": "Senegal", "Argentina": "Argentinien", "Austria": "Österreich", "Algeria": "Algerien",
     "Portugal": "Portugal", "Colombia": "Kolumbien", "Uzbekistan": "Usbekistan", "England": "England",
     "Croatia": "Kroatien", "Panama": "Panama", "TBD": "Offen",
-    "Czechia": "Tschechien", "Bosnia and Herzegovina": "Bosnien und Herzegowina", "Qatar": "Katar", "Haiti": "Haiti",
+    "Czechia": "Tschechien", "Bosnia-Herzegovina": "Bosnien und Herzegowina", "Qatar": "Katar", "Haiti": "Haiti",
     "Curaçao": "Curaçao", "Tunisia": "Tunesien", "New Zealand": "Neuseeland", "Cape Verde": "Kap Verde",
     "Iraq": "Irak", "Jordan": "Jordanien", "DR Congo": "DR Kongo", "Ghana": "Ghana"
   },
@@ -348,7 +348,7 @@ const allTeamTranslations = {
     "Senegal": "Senegal", "Argentina": "Argentina", "Austria": "Áustria", "Algeria": "Argélia",
     "Portugal": "Portugal", "Colombia": "Colômbia", "Uzbekistan": "Uzbequistão", "England": "Inglaterra",
     "Croatia": "Croácia", "Panama": "Panamá", "TBD": "A Definir",
-    "Czechia": "Chéquia", "Bosnia and Herzegovina": "Bósnia e Herzegovina", "Qatar": "Catar", "Haiti": "Haiti",
+    "Czechia": "Chéquia", "Bosnia-Herzegovina": "Bósnia e Herzegovina", "Qatar": "Catar", "Haiti": "Haiti",
     "Curaçao": "Curaçao", "Tunisia": "Tunísia", "New Zealand": "Nova Zelândia", "Cape Verde": "Cabo Verde",
     "Iraq": "Iraque", "Jordan": "Jordânia", "DR Congo": "RD Congo", "Ghana": "Gana"
   },
@@ -362,7 +362,7 @@ const allTeamTranslations = {
     "Senegal": "세네갈", "Argentina": "아르헨티나", "Austria": "오스트리아", "Algeria": "알제리",
     "Portugal": "포르투갈", "Colombia": "콜롬비아", "Uzbekistan": "우즈베키스탄", "England": "잉글랜드",
     "Croatia": "크로아티아", "Panama": "파나마", "TBD": "미정",
-    "Czechia": "체코", "Bosnia and Herzegovina": "보스니아 헤르체고비나", "Qatar": "카타르", "Haiti": "아이티",
+    "Czechia": "체코", "Bosnia-Herzegovina": "보스니아 헤르체고비나", "Qatar": "카타르", "Haiti": "아이티",
     "Curaçao": "퀴라소", "Tunisia": "튀니지", "New Zealand": "뉴질랜드", "Cape Verde": "카보베르데",
     "Iraq": "이라크", "Jordan": "요르단", "DR Congo": "민주 콩고", "Ghana": "가나"
   },
@@ -376,7 +376,7 @@ const allTeamTranslations = {
     "Senegal": "塞内加尔", "Argentina": "阿根廷", "Austria": "奥地利", "Algeria": "阿尔及利亚",
     "Portugal": "葡萄牙", "Colombia": "哥伦比亚", "Uzbekistan": "乌兹别克斯坦", "England": "英格兰",
     "Croatia": "克罗地亚", "Panama": "巴拿马", "TBD": "待定",
-    "Czechia": "捷克", "Bosnia and Herzegovina": "波斯尼亚和黑塞哥维那", "Qatar": "卡塔尔", "Haiti": "海地",
+    "Czechia": "捷克", "Bosnia-Herzegovina": "波斯尼亚和黑塞哥维那", "Qatar": "卡塔尔", "Haiti": "海地",
     "Curaçao": "库拉索", "Tunisia": "突尼斯", "New Zealand": "新西兰", "Cape Verde": "佛得角",
     "Iraq": "伊拉克", "Jordan": "约旦", "DR Congo": "民主刚果", "Ghana": "加纳"
   }
