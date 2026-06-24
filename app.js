@@ -367,6 +367,17 @@ function setLanguage(lang) {
   renderAll();
 }
 
+// APIからの国名をアプリ内表記に正規化
+function normalizeTeamName(name) {
+  const map = {
+    "Turkey": "Türkiye",
+    "United States": "USA",
+    "Congo DR": "DR Congo",
+    "Cape Verde Islands": "Cape Verde"
+  };
+  return map[name] || name;
+}
+
 // チーム翻訳ヘルパー (Intl.DisplayNames による主要60言語への完全対応)
 function getTeamName(team) {
   if (!team || team === "TBD") {
@@ -1267,7 +1278,7 @@ function runGroupStageSimulation(standingsData, matchesData) {
     
     groups[groupChar] = {
       teams: gs.table.map(t => ({
-        name: t.team.name,
+        name: normalizeTeamName(t.team.name),
         points: t.points,
         playedGames: t.playedGames,
         goalsFor: t.goalsFor,
@@ -1286,8 +1297,8 @@ function runGroupStageSimulation(standingsData, matchesData) {
 
     if (m.status !== "FINISHED") {
       groups[groupChar].remainingMatches.push({
-        home: m.homeTeam.name,
-        away: m.awayTeam.name
+        home: normalizeTeamName(m.homeTeam.name),
+        away: normalizeTeamName(m.awayTeam.name)
       });
     }
   });
@@ -1550,8 +1561,8 @@ function applyLiveMatches(data) {
   data.matches.forEach(apiMatch => {
     if (apiMatch.stage === "GROUP_STAGE") return;
     
-    const homeTeam = apiMatch.homeTeam.name;
-    const awayTeam = apiMatch.awayTeam.name;
+    const homeTeam = normalizeTeamName(apiMatch.homeTeam.name);
+    const awayTeam = normalizeTeamName(apiMatch.awayTeam.name);
     
     const matchId = Object.keys(matches).find(id => {
       const m = matches[id];
@@ -1667,8 +1678,8 @@ function createLiveMatchCard(match, type) {
   const div = document.createElement("div");
   div.className = `live-match-card ${type.toLowerCase()}`;
   
-  const homeName = match.homeTeam.name;
-  const awayName = match.awayTeam.name;
+  const homeName = normalizeTeamName(match.homeTeam.name);
+  const awayName = normalizeTeamName(match.awayTeam.name);
   const homeCode = teamCodes[homeName] || "?";
   const awayCode = teamCodes[awayName] || "?";
   
