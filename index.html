@@ -110,7 +110,6 @@
 
     <!-- Bridge title between cinema and bracket -->
     <section class="bridge-hero reveal">
-      <p class="date-badge" data-key="heroDate">CURRENT DATE: JUNE 25, 2026</p>
       <h2 class="bridge-title">Dream Bracket</h2>
       <p class="hero-desc" data-key="heroDesc">The Group Stage is concluding. Confirm probabilities, switch candidates, run AI projections, or manually guide your team to FIFA World Cup glory!</p>
     </section>
@@ -129,9 +128,6 @@
           <button id="reset-btn" class="btn btn-secondary">
             <i class="fa-solid fa-rotate-left"></i> <span data-key="btnReset">Reset Bracket</span>
           </button>
-          <button id="live-toggle" class="btn btn-live active" title="Live group-stage updates">
-            <span class="live-dot"></span> <span class="live-label">LIVE 自動進行 ON</span>
-          </button>
           <button id="share-x-btn" class="btn btn-share-x" title="Share your prediction on X">
             <i class="fa-brands fa-x-twitter"></i> <span>X</span>
           </button>
@@ -142,7 +138,7 @@
             <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
           </button>
           <button id="save-img-btn" class="btn btn-save-img" title="Download bracket as image">
-            <i class="fa-solid fa-download"></i> <span>画像で保存</span>
+            <i class="fa-solid fa-download"></i> <span data-key="btnSaveImg">画像で保存</span>
           </button>
         </div>
       </div>
@@ -230,6 +226,19 @@
       </div>
 
     </main>
+
+    <!-- Live Matches Station -->
+    <section class="live-station-section reveal" id="live-matches-section">
+      <div class="live-station-container">
+        <div class="live-station-header">
+          <h3 data-key="liveMatchesTitle">LIVE MATCH STATION</h3>
+          <p data-key="liveMatchesDesc">Real-time scores and detailed statistics from active matches.</p>
+        </div>
+        <div class="live-matches-grid" id="live-matches-grid">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+    </section>
 
     <!-- Candidate Selection Popup Modal -->
     <div class="modal-overlay" id="candidates-modal">

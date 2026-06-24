@@ -95,7 +95,10 @@ const translations = {
     confirmedBadge: "Confirmed",
     selectTeamTitle: "Select Qualified Team",
     finalisedBadge: "PREDICTION FINALISED",
-    footerCredits: "© 2026 FIFA World Cup Fan Simulator. Created with real group draw data."
+    footerCredits: "© 2026 FIFA World Cup Fan Simulator. Created with real group draw data.",
+    liveMatchesTitle: "LIVE MATCH STATION",
+    liveMatchesDesc: "Real-time scores and detailed statistics from active matches.",
+    btnSaveImg: "Save as Image"
   },
   ja: {
     title: "W杯 2026 予想",
@@ -123,7 +126,10 @@ const translations = {
     confirmedBadge: "確定",
     selectTeamTitle: "進出チームの選択",
     finalisedBadge: "予想確定（ブラケット固定）",
-    footerCredits: "© 2026 FIFAワールドカップ ファンシミュレーター。実際のグループ抽選データに基づいています。"
+    footerCredits: "© 2026 FIFAワールドカップ ファンシミュレーター。実際のグループ抽選データに基づいています。",
+    liveMatchesTitle: "LIVE 試合ステーション",
+    liveMatchesDesc: "現在進行中のリアルタイムスコアと詳細な試合データをお届けします。",
+    btnSaveImg: "画像で保存"
   },
   es: {
     title: "MUNDIAL 2026",
@@ -151,7 +157,10 @@ const translations = {
     confirmedBadge: "Confirmado",
     selectTeamTitle: "Seleccionar Clasificado",
     finalisedBadge: "PRONÓSTICO FINALIZADO",
-    footerCredits: "© 2026 Simulador del Fanático de la Copa Mundial. Creado con los datos reales del sorteo."
+    footerCredits: "© 2026 Simulador del Fanático de la Copa Mundial. Creado con los datos reales del sorteo.",
+    liveMatchesTitle: "ESTACIÓN DE PARTIDOS EN VIVO",
+    liveMatchesDesc: "Marcadores en tiempo real y estadísticas detalladas de partidos activos.",
+    btnSaveImg: "Guardar como imagen"
   }
 };
 
@@ -199,6 +208,14 @@ const teamTranslations = {
     "Iraq": "Irak", "Jordan": "Jordania", "DR Congo": "RD Congo", "Ghana": "Ghana"
   }
 };
+
+// translations_full.js で読み込まれる完全な多言語データをマージ
+if (typeof allTranslations !== 'undefined') {
+  Object.assign(translations, allTranslations);
+}
+if (typeof allTeamTranslations !== 'undefined') {
+  Object.assign(teamTranslations, allTeamTranslations);
+}
 
 // チームの実力（強さ）レーティング - AI予測時に使用
 const teamStrengths = {
@@ -628,6 +645,9 @@ function createMatchBox(id) {
   const match = matches[id];
   const div = document.createElement('div');
   div.className = `match-box`;
+  if (match.score && match.score.includes('(LIVE)')) {
+    div.classList.add('live-match-active');
+  }
   div.id = `match-${id}`;
 
   const label = translations[currentLang].matchLabel;
@@ -1131,8 +1151,15 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // ブラウザの言語設定を取得し、初期言語を決定（デフォルトは英語 'en'）
+  let defaultLang = 'en';
+  const browserLang = (navigator.language || navigator.userLanguage || '').substring(0, 2).toLowerCase();
+  if (browserLang && supportedLanguages.some(l => l.code === browserLang)) {
+    defaultLang = browserLang;
+  }
+
   loadFifa3rdPlaceMapping();
-  setLanguage('ja');
+  setLanguage(defaultLang);
   startRealtimeUpdates();
   loadLiveFootballData();
   
@@ -1346,9 +1373,21 @@ function applyLiveMatches(data) {
   
   let structuralChange = false;
   
+  // ライブ中の試合を抽出
+  const liveMatches = data.matches.filter(m => m.status === "IN_PLAY" || m.status === "PAUSED");
+  
+  // ライブ中がない場合は、最新の終了試合3件と、今後の試合3件を抽出
+  let finishedMatches = [];
+  let upcomingMatches = [];
+  if (liveMatches.length === 0) {
+    const allFinished = data.matches.filter(m => m.status === "FINISHED");
+    finishedMatches = allFinished.slice(-3).reverse();
+    upcomingMatches = data.matches.filter(m => m.status === "TIMED").slice(0, 3);
+  }
+
+  // トーナメントマッチ（GROUP_STAGE以外）の同期処理
   data.matches.forEach(apiMatch => {
     if (apiMatch.stage === "GROUP_STAGE") return;
-    if (apiMatch.status !== "FINISHED") return;
     
     const homeTeam = apiMatch.homeTeam.name;
     const awayTeam = apiMatch.awayTeam.name;
@@ -1369,32 +1408,37 @@ function applyLiveMatches(data) {
       const homeScore = score.fullTime.home;
       const awayScore = score.fullTime.away;
       
-      let apiWinner = null;
-      if (score.winner === "HOME_TEAM") apiWinner = homeTeam;
-      else if (score.winner === "AWAY_TEAM") apiWinner = awayTeam;
-      
       let scoreText = "";
-      const isHomeWinner = (apiWinner === homeTeam);
-      const winScore = isHomeWinner ? homeScore : awayScore;
-      const loseScore = isHomeWinner ? awayScore : homeScore;
-      
       if (score.duration === "REGULAR") {
-        scoreText = isHomeWinner ? `${winScore} - ${loseScore}` : `${loseScore} - ${winScore}`;
+        scoreText = `${homeScore} - ${awayScore}`;
       } else if (score.duration === "EXTRA_TIME") {
-        scoreText = isHomeWinner ? `${winScore} - ${loseScore} (AET)` : `${loseScore} - ${winScore} (AET)`;
+        scoreText = `${homeScore} - ${awayScore} (AET)`;
       } else if (score.duration === "PENALTY_SHOOTOUT") {
         const pkHome = score.penalties ? score.penalties.home : 0;
         const pkAway = score.penalties ? score.penalties.away : 0;
-        const pkText = isHomeWinner ? `(${pkHome}-${pkAway} PK)` : `(${pkAway}-${pkHome} PK)`;
-        scoreText = `${homeScore} - ${awayScore} ${pkText}`;
+        scoreText = `${homeScore} - ${awayScore} (${pkHome}-${pkAway} PK)`;
       } else {
         scoreText = `${homeScore} - ${awayScore}`;
       }
-      
-      if (match.winner !== apiWinner || match.score !== scoreText) {
-        match.winner = apiWinner;
-        match.score = scoreText;
-        structuralChange = true;
+
+      if (apiMatch.status === "FINISHED") {
+        let apiWinner = null;
+        if (score.winner === "HOME_TEAM") apiWinner = homeTeam;
+        else if (score.winner === "AWAY_TEAM") apiWinner = awayTeam;
+        
+        if (match.winner !== apiWinner || match.score !== scoreText) {
+          match.winner = apiWinner;
+          match.score = scoreText;
+          structuralChange = true;
+        }
+      } 
+      else if (apiMatch.status === "IN_PLAY" || apiMatch.status === "PAUSED") {
+        const liveScoreText = `${scoreText} (LIVE)`;
+        if (match.score !== liveScoreText || match.winner !== null) {
+          match.winner = null;
+          match.score = liveScoreText;
+          structuralChange = true;
+        }
       }
     }
   });
@@ -1403,4 +1447,159 @@ function applyLiveMatches(data) {
     evaluateBracket();
     renderAll();
   }
+
+  // ライブマッチセクション（トーナメント表の下）のレンダリング
+  renderLiveMatchesSection(liveMatches, finishedMatches, upcomingMatches);
+}
+
+// ライブマッチセクションのレンダリング
+function renderLiveMatchesSection(liveMatches, finishedMatches, upcomingMatches) {
+  const container = document.getElementById("live-matches-grid");
+  if (!container) return;
+  
+  container.innerHTML = "";
+  
+  if (liveMatches.length > 0) {
+    liveMatches.forEach(m => {
+      const card = createLiveMatchCard(m, "LIVE");
+      container.appendChild(card);
+    });
+  } else {
+    // 終了した試合
+    if (finishedMatches.length > 0) {
+      const titleFinished = document.createElement("div");
+      titleFinished.className = "live-section-subtitle";
+      const isJa = (currentLang === 'ja');
+      titleFinished.innerHTML = `<i class="fa-solid fa-square-poll-vertical"></i> <span>${isJa ? '最新の試合結果' : 'Recent Results'}</span>`;
+      container.appendChild(titleFinished);
+      
+      const finishedGrid = document.createElement("div");
+      finishedGrid.className = "live-sub-grid";
+      finishedMatches.forEach(m => {
+        const card = createLiveMatchCard(m, "FINISHED");
+        finishedGrid.appendChild(card);
+      });
+      container.appendChild(finishedGrid);
+    }
+    
+    // 今後の予定
+    if (upcomingMatches.length > 0) {
+      const titleUpcoming = document.createElement("div");
+      titleUpcoming.className = "live-section-subtitle";
+      const isJa = (currentLang === 'ja');
+      titleUpcoming.innerHTML = `<i class="fa-solid fa-calendar-days"></i> <span>${isJa ? '今後の試合予定' : 'Upcoming Matches'}</span>`;
+      container.appendChild(titleUpcoming);
+      
+      const upcomingGrid = document.createElement("div");
+      upcomingGrid.className = "live-sub-grid";
+      upcomingMatches.forEach(m => {
+        const card = createLiveMatchCard(m, "TIMED");
+        upcomingGrid.appendChild(card);
+      });
+      container.appendChild(upcomingGrid);
+    }
+  }
+}
+
+// ライブ試合カードのDOM要素作成
+function createLiveMatchCard(match, type) {
+  const div = document.createElement("div");
+  div.className = `live-match-card ${type.toLowerCase()}`;
+  
+  const homeName = match.homeTeam.name;
+  const awayName = match.awayTeam.name;
+  const homeCode = teamCodes[homeName] || "?";
+  const awayCode = teamCodes[awayName] || "?";
+  
+  let homeFlag = `<span class="flag-placeholder">${homeCode}</span>`;
+  if (homeCode !== "?") {
+    homeFlag = `<img src="https://flagcdn.com/w40/${homeCode.toLowerCase()}.png" class="match-card-flag" alt="${homeName}">`;
+  }
+  let awayFlag = `<span class="flag-placeholder">${awayCode}</span>`;
+  if (awayCode !== "?") {
+    awayFlag = `<img src="https://flagcdn.com/w40/${awayCode.toLowerCase()}.png" class="match-card-flag" alt="${awayName}">`;
+  }
+
+  let badgeHtml = "";
+  const isJa = (currentLang === 'ja');
+  if (type === "LIVE") {
+    const statusLabel = match.status === "PAUSED" ? (isJa ? "ハーフタイム" : "HALF TIME") : (isJa ? "ライブ進行中" : "IN PLAY");
+    badgeHtml = `<span class="live-card-badge active-live"><span class="badge-dot animate-pulse"></span> ${statusLabel}</span>`;
+  } else if (type === "FINISHED") {
+    badgeHtml = `<span class="live-card-badge finished-live">${isJa ? "終了" : "FINISHED"}</span>`;
+  } else {
+    badgeHtml = `<span class="live-card-badge upcoming-live">${isJa ? "予定" : "SCHEDULED"}</span>`;
+  }
+
+  let scoreHtml = "";
+  if (type === "TIMED") {
+    scoreHtml = `<div class="card-vs-label">VS</div>`;
+  } else {
+    const homeScore = match.score.fullTime.home !== null ? match.score.fullTime.home : 0;
+    const awayScore = match.score.fullTime.away !== null ? match.score.fullTime.away : 0;
+    scoreHtml = `<div class="card-score-display">${homeScore} - ${awayScore}</div>`;
+  }
+
+  const matchDate = new Date(match.utcDate);
+  const formattedDate = matchDate.toLocaleString(isJa ? 'ja-JP' : 'en-US', {
+    month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+  });
+
+  const refereeNames = match.referees && match.referees.length > 0
+    ? match.referees.map(r => r.name).join(", ")
+    : (isJa ? '未指定' : 'Not assigned');
+
+  let stageName = match.stage;
+  if (isJa) {
+    const stageMap = {
+      "GROUP_STAGE": match.group ? match.group.replace("GROUP_", "グループ ") : "グループステージ",
+      "LAST_32": "ラウンド32",
+      "LAST_16": "ラウンド16",
+      "QUARTER_FINALS": "準々決勝",
+      "SEMI_FINALS": "準決勝",
+      "THIRD_PLACE": "3位決定戦",
+      "FINAL": "決勝戦"
+    };
+    stageName = stageMap[match.stage] || match.stage;
+  } else {
+    const stageMap = {
+      "LAST_32": "ROUND OF 32",
+      "LAST_16": "ROUND OF 16",
+      "QUARTER_FINALS": "QUARTER-FINALS",
+      "SEMI_FINALS": "SEMI-FINALS",
+      "THIRD_PLACE": "THIRD PLACE",
+      "FINAL": "FINAL"
+    };
+    stageName = stageMap[match.stage] || match.stage;
+  }
+
+  div.innerHTML = `
+    <div class="card-meta">
+      <span class="card-stage">${stageName}</span>
+      ${badgeHtml}
+    </div>
+    <div class="card-teams-area">
+      <div class="card-team home">
+        ${homeFlag}
+        <span class="card-team-name">${getTeamName(homeName)}</span>
+      </div>
+      ${scoreHtml}
+      <div class="card-team away">
+        ${awayFlag}
+        <span class="card-team-name">${getTeamName(awayName)}</span>
+      </div>
+    </div>
+    <div class="card-details-grid">
+      <div class="detail-item">
+        <i class="fa-regular fa-clock"></i>
+        <span>${formattedDate}</span>
+      </div>
+      <div class="detail-item">
+        <i class="fa-solid fa-user-shield"></i>
+        <span>Referee: ${refereeNames}</span>
+      </div>
+    </div>
+  `;
+  
+  return div;
 }

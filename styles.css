@@ -420,17 +420,7 @@ header:not(.scrolled) .logo h1 { filter: drop-shadow(0 1px 6px rgba(255,255,255,
 .btn-secondary { background: rgba(255,255,255,0.6); color: var(--ink); border: 1px solid var(--color-border); }
 .btn-secondary:hover { background: rgba(255,255,255,0.9); transform: translateY(-2px); }
 
-/* LIVE toggle */
-.btn-live { background: rgba(255,255,255,0.6); color: var(--ink-soft); border: 1px solid var(--color-border); }
-.btn-live:hover { transform: translateY(-2px); }
-.btn-live .live-dot { width: 9px; height: 9px; border-radius: 50%; background: #c2c7dc; box-shadow: none; transition: var(--transition-smooth); }
-.btn-live.active { color: #c0392b; border-color: rgba(231,76,60,0.4); background: rgba(231,76,60,0.06); }
-.btn-live.active .live-dot { background: #e74c3c; box-shadow: 0 0 0 0 rgba(231,76,60,0.6); animation: live-pulse 1.6s ease-out infinite; }
-@keyframes live-pulse {
-  0%   { box-shadow: 0 0 0 0 rgba(231,76,60,0.55); }
-  70%  { box-shadow: 0 0 0 8px rgba(231,76,60,0); }
-  100% { box-shadow: 0 0 0 0 rgba(231,76,60,0); }
-}
+
 
 /* Probability change flash */
 .prob-flash { animation: prob-flash-anim 0.7s ease-out; }
@@ -477,6 +467,7 @@ header:not(.scrolled) .logo h1 { filter: drop-shadow(0 1px 6px rgba(255,255,255,
   display: flex; justify-content: space-between; width: 100%;
   max-width: 1750px; margin: 0 auto; padding: 0 1.5rem 5rem;
   gap: 1rem; overflow-x: auto; scrollbar-width: thin; position: relative;
+  zoom: 0.67; /* 初期表示サイズを67%に縮小 */
 }
 .bracket-container::after {
   content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px;
@@ -671,6 +662,10 @@ footer { margin-top: auto; border-top: 1px solid var(--color-border); padding: 2
   .btn { flex: 1; justify-content: center; }
   .lang-select { max-width: 90px; }
 
+  .bracket-container {
+    zoom: 1; /* モバイルでは視認性を確保するためズームを1倍（等倍）に戻す */
+  }
+
   .view-selector { display: flex; }
   .bracket-container.view-left .side-right,
   .bracket-container.view-left .side-center { display: none; }
@@ -735,4 +730,278 @@ footer { margin-top: auto; border-top: 1px solid var(--color-border); padding: 2
 .control-actions {
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* =====================================================================
+   Live Match Station (Under the Bracket)
+   ===================================================================== */
+.live-station-section {
+  max-width: 1200px;
+  width: 92%;
+  margin: 4rem auto 3rem;
+  padding: 0 1rem;
+}
+.live-station-container {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 24px;
+  padding: 2.2rem;
+  box-shadow: var(--card-shadow);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+}
+.live-station-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 1.2rem;
+}
+.live-station-header h3 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, var(--iris), var(--sky));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.live-station-header p {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-top: 0.35rem;
+}
+
+/* Grids and layouts */
+.live-matches-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.live-sub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.live-section-subtitle {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--iris);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Match Cards */
+.live-match-card {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+  transition: var(--transition-smooth);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.live-match-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(124, 123, 200, 0.12);
+  border-color: var(--color-border-hover);
+}
+.live-match-card.live {
+  border-color: rgba(231, 76, 60, 0.3);
+  background: rgba(231, 76, 60, 0.02);
+}
+.live-match-card.live:hover {
+  border-color: rgba(231, 76, 60, 0.6);
+  box-shadow: 0 8px 24px rgba(231, 76, 60, 0.15);
+}
+
+/* Card details inner */
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+}
+.card-stage {
+  font-weight: 700;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.live-card-badge {
+  padding: 0.25rem 0.65rem;
+  border-radius: 50px;
+  font-weight: 800;
+  font-size: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.live-card-badge.active-live {
+  background: rgba(231, 76, 60, 0.12);
+  color: #e74c3c;
+}
+.live-card-badge.finished-live {
+  background: rgba(46, 204, 113, 0.1);
+  color: #2ecc71;
+}
+.live-card-badge.upcoming-live {
+  background: rgba(52, 152, 219, 0.1);
+  color: #3498db;
+}
+
+.badge-dot {
+  width: 7px;
+  height: 7px;
+  background-color: currentColor;
+  border-radius: 50%;
+  display: inline-block;
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+.animate-pulse {
+  animation: pulse-dot 1.2s infinite;
+}
+
+/* Teams score display inside card */
+.card-teams-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+  border-bottom: 1px dashed var(--color-border);
+  padding-bottom: 0.8rem;
+}
+.card-team {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex: 1;
+}
+.card-team.home {
+  justify-content: flex-start;
+}
+.card-team.away {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+.match-card-flag {
+  width: 32px;
+  height: 22px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+.card-team-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.card-score-display {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--ink);
+  padding: 0 1rem;
+  letter-spacing: 1px;
+}
+.card-vs-label {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--ink-soft);
+  padding: 0 1.2rem;
+}
+
+/* Card details grid (referee/date) */
+.card-details-grid {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.detail-item i {
+  color: var(--iris);
+}
+
+/* Bracket match box active live effect */
+.match-box.live-match-active {
+  border-color: #e74c3c;
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.35), var(--card-shadow);
+  animation: live-match-border-pulse 2s infinite alternate;
+}
+.match-box.live-match-active::after {
+  content: "LIVE";
+  position: absolute;
+  top: -8px;
+  right: 8px;
+  font-size: 0.55rem;
+  font-weight: 900;
+  color: #fff;
+  background: #e74c3c;
+  padding: 1px 5px;
+  border-radius: 30px;
+  box-shadow: 0 2px 6px rgba(231, 76, 60, 0.4);
+  animation: live-label-blink 1.2s infinite;
+}
+.side-right .match-box.live-match-active::after {
+  right: auto;
+  left: 8px;
+}
+
+@keyframes live-match-border-pulse {
+  0% { border-color: rgba(231, 76, 60, 0.3); box-shadow: 0 0 4px rgba(231, 76, 60, 0.15), var(--card-shadow); }
+  100% { border-color: rgba(231, 76, 60, 1); box-shadow: 0 0 18px rgba(231, 76, 60, 0.45), var(--card-shadow); }
+}
+@keyframes live-label-blink {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+/* Placeholder inside live grid */
+.live-matches-placeholder {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--ink-soft);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+.live-matches-placeholder i {
+  font-size: 2.2rem;
+  color: var(--iris);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .live-station-container {
+    padding: 1.4rem;
+  }
+  .live-sub-grid {
+    grid-template-columns: 1fr;
+  }
+  .card-team-name {
+    font-size: 0.85rem;
+  }
+  .card-score-display {
+    font-size: 1.2rem;
+  }
 }
