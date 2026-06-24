@@ -123,151 +123,21 @@ const supportedLanguages = [
   { code: 'pa', name: 'ਪੰਜਾਬੀ' },
   { code: 'sw', name: 'Kiswahili' },
   { code: 'tl', name: 'Tagalog' },
-  { code: 'ca', name: 'Català' },
-  { code: 'gl', name: 'Galego' },
-  { code: 'eu', name: 'Euskara' },
-  { code: 'is', name: 'Íslenska' },
-  { code: 'ga', name: 'Gaeilge' },
-  { code: 'cy', name: 'Cymraeg' },
-  { code: 'af', name: 'Afrikaans' },
-  { code: 'sq', name: 'Shqip' },
-  { code: 'mk', name: 'Македонски' },
-  { code: 'hy', name: 'Հայերեն' },
-  { code: 'ka', name: 'ქართული' },
-  { code: 'az', name: 'Azərbaycanca' }
+  { code: 'ca', name: 'Català' }
 ];
 
-const translations = {
-  en: {
-    title: "WORLD CUP 2026",
-    heroDate: "CURRENT DATE: JUNE 25, 2026",
-    heroHeading: "Interactive Bracket Predictor",
-    heroDesc: "The Group Stage is concluding in North America. Confirm 100% fixed slots (🔒), click adjustable slots to switch based on qualification probability, or run AI predictions to simulate the tournament!",
-    scrollPrompt: "Scroll down to reveal stadium & bracket",
-    controlTitle: "Simulation Control Room",
-    controlDesc: "Click a match participant to advance them, or select a slot to see other qualified candidates. Use the AI tool to predict outcomes using team strengths.",
-    btnAiPredict: "AI Auto Predict",
-    btnReset: "Reset Bracket",
-    viewAll: "Full Bracket",
-    viewLeft: "Left Bracket",
-    viewRight: "Right Bracket",
-    viewCenter: "Finals",
-    round32: "ROUND OF 32",
-    round16: "ROUND OF 16",
-    quarterFinals: "QUARTER-FINALS",
-    semiFinals: "SEMI-FINALS",
-    final: "WORLD CUP FINAL",
-    thirdPlace: "THIRD PLACE PLAY-OFF",
-    worldChampion: "WORLD CHAMPION",
-    tbd: "TBD",
-    matchLabel: "Match",
-    confirmedBadge: "Confirmed",
-    selectTeamTitle: "Select Qualified Team",
-    finalisedBadge: "PREDICTION FINALISED",
-    footerCredits: "© 2026 FIFA World Cup Fan Simulator. Created with real group draw data."
-  },
-  ja: {
-    title: "W杯 2026 予想",
-    heroDate: "シミュレーション日付: 2026年6月25日",
-    heroHeading: "W杯 2026 トーナメント予想",
-    heroDesc: "北米で開催されるグループステージが終盤を迎えています。100%確定した枠（🔒）を確認し、未確定の枠をクリックして勝ち抜け確率別の候補チームを切り替えたり、AIによる確率シミュレーションを実行して優勝国を予想しましょう！",
-    scrollPrompt: "スクロールしてスタジアムとトーナメント表を表示",
-    controlTitle: "シミュレーション操作パネル",
-    controlDesc: "各対戦カードのチーム名をクリックして勝ち上がらせるか、未確定スロットをクリックして別候補を選びます。AI予測機能はチーム力に基づいてシミュレートします。",
-    btnAiPredict: "AI自動シミュレーション",
-    btnReset: "トーナメントのリセット",
-    viewAll: "ブラケット全体",
-    viewLeft: "左ブロック (M73-M80)",
-    viewRight: "右ブロック (M81-M88)",
-    viewCenter: "決勝ラウンド",
-    round32: "ラウンド 32",
-    round16: "ラウンド 16",
-    quarterFinals: "準々決勝",
-    semiFinals: "準決勝",
-    final: "ワールドカップ 決勝",
-    thirdPlace: "3位決定戦",
-    worldChampion: "世界王者 (優勝国)",
-    tbd: "未決定",
-    matchLabel: "マッチ",
-    confirmedBadge: "確定",
-    selectTeamTitle: "進出チームの選択",
-    finalisedBadge: "予想確定（ブラケット固定）",
-    footerCredits: "© 2026 FIFAワールドカップ ファンシミュレーター。実際のグループ抽選データに基づいています。"
-  },
-  es: {
-    title: "MUNDIAL 2026",
-    heroDate: "FECHA ACTUAL: 25 DE JUNIO DE 2026",
-    heroHeading: "Pronosticador del Mundial 2026",
-    heroDesc: "La fase de grupos está terminando en Norteamérica. Confirma los cupos fijos (🔒), haz clic en los modificables según sus probabilidades o simula con IA los ganadores.",
-    scrollPrompt: "Desliza hacia abajo para revelar el estadio y el cuadro",
-    controlTitle: "Panel de Simulación",
-    controlDesc: "Haz clic en un equipo para avanzar al siguiente partido o selecciona una ranura para cambiar el clasificado. Usa la IA para calcular según la fortaleza del equipo.",
-    btnAiPredict: "Predicción Automática con IA",
-    btnReset: "Reiniciar Bracket",
-    viewAll: "Bracket Completo",
-    viewLeft: "Bloque Izquierdo",
-    viewRight: "Bloque Derecho",
-    viewCenter: "Finales",
-    round32: "DIECISEISAVOS DE FINAL",
-    round16: "OCTAVOS DE FINAL",
-    quarterFinals: "CUARTOS DE FINAL",
-    semiFinals: "SEMIFINALES",
-    final: "FINAL DEL MUNDIAL",
-    thirdPlace: "TERCER PUESTO",
-    worldChampion: "CAMPEÓN MUNDIAL",
-    tbd: "TBD",
-    matchLabel: "Partido",
-    confirmedBadge: "Confirmado",
-    selectTeamTitle: "Seleccionar Clasificado",
-    finalisedBadge: "PRONÓSTICO FINALIZADO",
-    footerCredits: "© 2026 Simulador del Fanático de la Copa Mundial. Creado con los datos reales del sorteo."
+// 外部ファイル (translations_full.js) の翻訳データを参照。対応外の言語は英語 (en) にフォールバックする
+const translations = new Proxy(allTranslations, {
+  get: function(target, prop) {
+    return prop in target ? target[prop] : target['en'];
   }
-};
+});
 
-const teamTranslations = {
-  en: {
-    "Mexico": "Mexico", "South Africa": "South Africa", "South Korea": "South Korea", "Sweden": "Sweden",
-    "Australia": "Australia", "Türkiye": "Türkiye", "Canada": "Canada", "Switzerland": "Switzerland",
-    "Brazil": "Brazil", "Morocco": "Morocco", "Scotland": "Scotland", "USA": "USA", "Paraguay": "Paraguay",
-    "Germany": "Germany", "Ecuador": "Ecuador", "Ivory Coast": "Ivory Coast", "Netherlands": "Netherlands",
-    "Japan": "Japan", "Belgium": "Belgium", "Egypt": "Egypt", "Iran": "Iran", "Spain": "Spain",
-    "Saudi Arabia": "Saudi Arabia", "Uruguay": "Uruguay", "France": "France", "Norway": "Norway",
-    "Senegal": "Senegal", "Argentina": "Argentina", "Austria": "Austria", "Algeria": "Algeria",
-    "Portugal": "Portugal", "Colombia": "Colombia", "Uzbekistan": "Uzbekistan", "England": "England",
-    "Croatia": "Croatia", "Panama": "Panama", "TBD": "TBD",
-    "Czechia": "Czechia", "Bosnia and Herzegovina": "Bosnia and Herzegovina", "Qatar": "Qatar", "Haiti": "Haiti",
-    "Curaçao": "Curaçao", "Tunisia": "Tunisia", "New Zealand": "New Zealand", "Cape Verde": "Cape Verde",
-    "Iraq": "Iraq", "Jordan": "Jordan", "DR Congo": "DR Congo", "Ghana": "Ghana"
-  },
-  ja: {
-    "Mexico": "メキシコ", "South Africa": "南アフリカ", "South Korea": "韓国", "Sweden": "スウェーデン",
-    "Australia": "オーストラリア", "Türkiye": "トルコ", "Canada": "カナダ", "Switzerland": "スイス",
-    "Brazil": "ブラジル", "Morocco": "モロッコ", "Scotland": "スコットランド", "USA": "アメリカ", "Paraguay": "パラグアイ",
-    "Germany": "ドイツ", "Ecuador": "エクアドル", "Ivory Coast": "コートジボワール", "Netherlands": "オランダ",
-    "Japan": "日本", "Belgium": "ベルギー", "Egypt": "エジプト", "Iran": "イラン", "Spain": "スペイン",
-    "Saudi Arabia": "サウジアラビア", "Uruguay": "ウルグアイ", "France": "フランス", "Norway": "ノルウェー",
-    "Senegal": "セネガル", "Argentina": "アルゼンチン", "Austria": "オーストリア", "Algeria": "アルジェリア",
-    "Portugal": "ポルトガル", "Colombia": "コロンビア", "Uzbekistan": "ウズベキスタン", "England": "イングランド",
-    "Croatia": "クロアチア", "Panama": "パナマ", "TBD": "未決定",
-    "Czechia": "チェコ", "Bosnia and Herzegovina": "ボスニア・ヘルツェゴビナ", "Qatar": "カタール", "Haiti": "ハイチ",
-    "Curaçao": "キュラソー", "Tunisia": "チュニジア", "New Zealand": "ニュージーランド", "Cape Verde": "カーボベルデ",
-    "Iraq": "イラク", "Jordan": "ヨルダン", "DR Congo": "DRコンゴ", "Ghana": "ガーナ"
-  },
-  es: {
-    "Mexico": "México", "South Africa": "Sudáfrica", "South Korea": "Corea del Sur", "Sweden": "Suecia",
-    "Australia": "Australia", "Türkiye": "Turquía", "Canada": "Canadá", "Switzerland": "Suiza",
-    "Brazil": "Brasil", "Morocco": "Marruecos", "Scotland": "Escocia", "USA": "EE. UU.", "Paraguay": "Paraguay",
-    "Germany": "Alemania", "Ecuador": "Ecuador", "Ivory Coast": "Costa de Marfil", "Netherlands": "Países Bajos",
-    "Japan": "Japón", "Belgium": "Bélgica", "Egypt": "Egipto", "Iran": "Irán", "Spain": "España",
-    "Saudi Arabia": "Arabia Saudita", "Uruguay": "Uruguay", "France": "Francia", "Norway": "Noruega",
-    "Senegal": "Senegal", "Argentina": "Argentina", "Austria": "Austria", "Algeria": "Argelia",
-    "Portugal": "Portugal", "Colombia": "Colombia", "Uzbekistan": "Uzbekistán", "England": "Inglaterra",
-    "Croatia": "Croacia", "Panama": "Panamá", "TBD": "Por determinar",
-    "Czechia": "República Checa", "Bosnia and Herzegovina": "Bosnia y Herzegovina", "Qatar": "Catar", "Haiti": "Haití",
-    "Curaçao": "Curazao", "Tunisia": "Túnez", "New Zealand": "Nueva Zelanda", "Cape Verde": "Cabo Verde",
-    "Iraq": "Irak", "Jordan": "Jordania", "DR Congo": "RD Congo", "Ghana": "Ghana"
+const teamTranslations = new Proxy(allTeamTranslations, {
+  get: function(target, prop) {
+    return prop in target ? target[prop] : target['en'];
   }
-};
+});
 
 // チームの実力（強さ）レーティング - AI予測時に使用
 const teamStrengths = {
@@ -282,6 +152,166 @@ const teamStrengths = {
   "Cape Verde": 67, "Qatar": 65, "Iraq": 65, "Jordan": 64, "New Zealand": 63,
   "Czechia": 74, "Haiti": 60, "Curaçao": 58, "TBD": 10
 };
+
+/* =====================================================================
+   確率エンジン (Probability Engine)
+   グループ順位（どのノックアウト枠に入るか）の確率を、手打ちの固定値では
+   なくチーム強度から導出する。順位付けの標準モデルである Plackett–Luce を
+   各グループに適用して 1位 / 2位 / 3位 の確率を厳密列挙で算出する。
+   - 重み w_i = exp(strength_i / STRENGTH_TEMP)
+   - P(順位列) = ∏ w_i / (残りチームの w 合計)   ← softmax の順位拡張
+   試合の勝敗は Elo 型勝率で確率的に扱う（AI予想・ライブ更新で共用）。
+   ===================================================================== */
+const STRENGTH_TEMP = 7.0;   // 小さいほど強さ差が結果に効く
+const ELO_SCALE = 16;        // 小さいほど番狂わせが減る
+
+function strengthOf(team) { return teamStrengths[team] != null ? teamStrengths[team] : 50; }
+
+// 配列の全順列を返す（4チームなら24通り、十分軽量）
+function permute(arr) {
+  if (arr.length <= 1) return [arr];
+  const out = [];
+  arr.forEach((v, i) => {
+    const rest = arr.slice(0, i).concat(arr.slice(i + 1));
+    permute(rest).forEach(p => out.push([v].concat(p)));
+  });
+  return out;
+}
+
+// Plackett–Luce による各チームの 1位/2位/3位 確率（0〜1）
+function groupOrderProbs(teamList) {
+  const w = {};
+  teamList.forEach(t => { w[t] = Math.exp(strengthOf(t) / STRENGTH_TEMP); });
+  const res = {};
+  teamList.forEach(t => { res[t] = { p1: 0, p2: 0, p3: 0 }; });
+
+  permute(teamList).forEach(order => {
+    let prob = 1, sumAvail = teamList.reduce((s, t) => s + w[t], 0);
+    for (const t of order) { prob *= w[t] / sumAvail; sumAvail -= w[t]; }
+    if (order[0]) res[order[0]].p1 += prob;
+    if (order[1]) res[order[1]].p2 += prob;
+    if (order[2]) res[order[2]].p3 += prob;
+  });
+  return res;
+}
+
+// グループ字 → 所属4チーム
+function teamsByGroup() {
+  const groups = {};
+  Object.keys(teamGroupsAndRanks).forEach(t => {
+    const g = teamGroupsAndRanks[t].group;
+    (groups[g] = groups[g] || []).push(t);
+  });
+  return groups;
+}
+
+// 候補配列を 0.5% 以上で絞り、合計100%へ正規化してスロットへ書き込む
+function writeSlotCandidates(slot, cands) {
+  if (!slot || slot.confirmed) return;
+  let list = cands.filter(c => c.prob >= 0.005);
+  if (list.length === 0) list = cands.slice(0, 1);
+  const sum = list.reduce((s, c) => s + c.prob, 0) || 1;
+  list = list.map(c => ({ name: c.name, prob: parseFloat((c.prob / sum * 100).toFixed(2)) }));
+  const s2 = list.reduce((a, c) => a + c.prob, 0);
+  list[list.length - 1].prob = parseFloat((list[list.length - 1].prob + (100 - s2)).toFixed(2));
+  slot.candidates = list;
+  slot.current = list[0].name;
+}
+
+// 全グループの 1位/2位 スロット確率をモデルから再計算する
+function recomputeGroupSlots() {
+  const groups = teamsByGroup();
+  "ABCDEFGHIJKL".split("").forEach(g => {
+    const teams = groups[g];
+    if (!teams) return;
+    const winnerSlot = groupSlots["1" + g];
+    const runnerSlot = groupSlots["2" + g];
+
+    if (winnerSlot && winnerSlot.confirmed) {
+      // 1位が確定済み → 残り3チームで2位（=残りの中の1位）を計算
+      const champ = winnerSlot.current;
+      const rest = teams.filter(t => t !== champ);
+      const pr = groupOrderProbs(rest);
+      const runnerCands = rest.map(t => ({ name: t, prob: pr[t].p1 })).sort((a, b) => b.prob - a.prob);
+      writeSlotCandidates(runnerSlot, runnerCands);
+    } else {
+      const pr = groupOrderProbs(teams);
+      const winCands = teams.map(t => ({ name: t, prob: pr[t].p1 })).sort((a, b) => b.prob - a.prob);
+      const runCands = teams.map(t => ({ name: t, prob: pr[t].p2 })).sort((a, b) => b.prob - a.prob);
+      writeSlotCandidates(winnerSlot, winCands);
+      writeSlotCandidates(runnerSlot, runCands);
+    }
+  });
+}
+
+// Elo 型の勝率（strength 差を勝敗確率へ）
+function eloWinProb(s1, s2) { return 1 / (1 + Math.pow(10, (s2 - s1) / ELO_SCALE)); }
+
+// 確率的に試合の勝者を抽選（番狂わせあり）
+function sampleMatchWinner(team1, team2) {
+  if (team1 === "TBD" && team2 === "TBD") return "TBD";
+  if (team1 === "TBD") return team2;
+  if (team2 === "TBD") return team1;
+  const p = eloWinProb(strengthOf(team1), strengthOf(team2));
+  return Math.random() < p ? team1 : team2;
+}
+
+// 試合のスコアを確率的（チーム強度ベース）にシミュレートして生成
+function generateMatchScore(team1, team2, winner) {
+  if (team1 === "TBD" || team2 === "TBD" || !winner) return null;
+  
+  const s1 = teamStrengths[team1] || 70;
+  const s2 = teamStrengths[team2] || 70;
+  const winnerIsTeam1 = (winner === team1);
+  
+  const strengthDiff = Math.abs(s1 - s2);
+  const baseGoalExpected = 1.1;
+  const bonusGoal = Math.min(1.8, strengthDiff / 12.0);
+  
+  const rollGoals = (lambda) => {
+    let L = Math.exp(-lambda);
+    let k = 0;
+    let p = 1.0;
+    do {
+      k++;
+      p *= Math.random();
+    } while (p > L && k < 10);
+    return k - 1;
+  };
+  
+  let gWin = 0;
+  let gLose = 0;
+  
+  const r = Math.random();
+  if (r < 0.75) {
+    // 90分決着
+    gLose = rollGoals(baseGoalExpected);
+    gWin = gLose + 1 + rollGoals(0.7 + bonusGoal);
+    return winnerIsTeam1 ? `${gWin} - ${gLose}` : `${gLose} - ${gWin}`;
+  } else if (r < 0.92) {
+    // 延長戦決着 (AET)
+    const normalGoals = rollGoals(baseGoalExpected);
+    gLose = normalGoals;
+    gWin = normalGoals + 1;
+    return winnerIsTeam1 ? `${gWin} - ${gLose} (AET)` : `${gLose} - ${gWin} (AET)`;
+  } else {
+    // PK戦決着 (PK)
+    const finalGoals = rollGoals(baseGoalExpected + 0.3);
+    const pkWin = 3 + Math.floor(Math.random() * 3);
+    const pkLose = pkWin - 1 - (Math.random() < 0.25 ? 1 : 0);
+    return winnerIsTeam1 
+      ? `${finalGoals} - ${finalGoals} (${pkWin}-${pkLose} PK)` 
+      : `${finalGoals} - ${finalGoals} (${pkLose}-${pkWin} PK)`;
+  }
+}
+
+// 候補の確率分布に従って1チームを抽選
+function weightedSampleCandidate(candidates) {
+  const sum = candidates.reduce((s, c) => s + c.prob, 0) || 1;
+  let r = Math.random() * sum;
+  for (const c of candidates) { r -= c.prob; if (r <= 0) return c.name; }
+  return candidates[candidates.length - 1].name;
+}
 
 // 各国固有の2文字国コード (旗のプレースホルダーや装飾用)
 const teamCodes = {
@@ -597,7 +627,7 @@ function evaluateBracket() {
     match.team1Name = resolveTeamName(match.team1);
     match.team2Name = resolveTeamName(match.team2);
 
-    // 親スロットのチームが変更された場合、かつ既に選択されていた勝者と異なる場合は勝者をリセット
+    // 親スロット of チームが変更された場合、かつ既に選択されていた勝者と異なる場合は勝者をリセット
     if (match.team1Name !== prevTeam1 && match.winner === prevTeam1) {
       match.winner = null;
     }
@@ -608,6 +638,15 @@ function evaluateBracket() {
     // 両チーム決定済かつ勝者が未設定の場合は、手動予想用に状態を保ち、AI用にはTBDのまま
     if (match.team1Name === "TBD" || match.team2Name === "TBD") {
       match.winner = null;
+    }
+
+    // チームが変わった、または勝者がリセットされたらスコアをリセット/再シミュレート
+    if (match.team1Name !== prevTeam1 || match.team2Name !== prevTeam2 || !match.winner) {
+      if (!match.winner) {
+        match.score = null;
+      } else {
+        match.score = generateMatchScore(match.team1Name, match.team2Name, match.winner);
+      }
     }
   });
 
@@ -639,7 +678,7 @@ function renderAll() {
   const r32Left = [74, 77, 73, 75, 83, 84, 81, 82];
   const r32Right = [76, 78, 79, 80, 86, 88, 85, 87];
   
-  const r16Left = [90, 89, 93, 94];
+  const r16Left = [89, 90, 93, 94];
   const r16Right = [91, 92, 95, 96];
 
   const qfLeft = [97, 98];
@@ -685,13 +724,18 @@ function createMatchBox(id) {
   div.id = `match-${id}`;
 
   const label = translations[currentLang].matchLabel;
+  const scoreDisplay = match.score ? match.score : "TBD";
   div.innerHTML = `
     <div class="match-id">${label} ${id}</div>
-    <div class="match-info-meta">TBD</div>
+    <div class="match-info-meta">${scoreDisplay}</div>
   `;
 
   const slot1 = createTeamSlot(match.team1Name, match.team1.slot, match.winner === match.team1Name, match.winner && match.winner !== match.team1Name);
   const slot2 = createTeamSlot(match.team2Name, match.team2.slot, match.winner === match.team2Name, match.winner && match.winner !== match.team2Name);
+
+  // ライブ更新時に確率テキストを確実に特定するためのデータ属性
+  slot1.dataset.matchId = id; slot1.dataset.teamIndex = '1';
+  slot2.dataset.matchId = id; slot2.dataset.teamIndex = '2';
 
   // マッチ内でチームをクリックして勝ち上がらせる（手動予想モード）
   if (match.team1Name !== "TBD") {
@@ -820,7 +864,9 @@ function selectWinner(matchId, winnerName) {
   // 効果音の再生
   playSwooshSound();
   
-  matches[matchId].winner = winnerName;
+  const match = matches[matchId];
+  match.winner = winnerName;
+  match.score = generateMatchScore(match.team1Name, match.team2Name, winnerName);
   renderAll();
 
   // 決勝マッチ (104) の勝者が決定したら紙吹雪
@@ -914,37 +960,32 @@ function getMatchWinnerDeterministic(team1, team2) {
   return team1 < team2 ? team1 : team2;
 }
 
-// AI自動予想の実行
+// AI自動予想の実行（確率的シミュレーション）
+// グループ枠は確率分布から抽選し、各試合は Elo 勝率＋乱数で勝者を抽選する。
+// このため強豪が有利でありつつ、実行のたびに優勝国を含む結果が変わる。
 function runAiSimulation() {
-  // 1. まず未確定のグループスロットを、最も進出確率（prob）が高い候補に決定する
+  // 1. 未確定のグループスロットを「確率に比例した抽選」で決定（最大値固定ではない）
   Object.keys(groupSlots).forEach(key => {
     const slot = groupSlots[key];
-    if (!slot.confirmed) {
-      let bestCandidate = slot.candidates[0];
-      slot.candidates.forEach(c => {
-        if (c.prob > bestCandidate.prob) {
-          bestCandidate = c;
-        }
-      });
-      slot.current = bestCandidate.name;
+    if (!slot.confirmed && slot.candidates.length > 0) {
+      slot.current = weightedSampleCandidate(slot.candidates);
     }
   });
 
   // 2. ブラケットの評価をして親スロットの名前を最新化
   evaluateBracket();
 
-  // 3. Round of 32 から Final まで順番に決定論的に勝者を決定していく
+  // 3. Round of 32 から Final まで順番に、確率的に勝者を抽選していく
   const sortedMatchIds = Object.keys(matches).sort((a, b) => parseInt(a) - parseInt(b));
 
   sortedMatchIds.forEach(id => {
     const match = matches[id];
-    // 最新のチーム名を取得
     match.team1Name = resolveTeamName(match.team1);
     match.team2Name = resolveTeamName(match.team2);
 
-    const winner = getMatchWinnerDeterministic(match.team1Name, match.team2Name);
-    match.winner = winner;
-    
+    match.winner = sampleMatchWinner(match.team1Name, match.team2Name);
+    match.score = generateMatchScore(match.team1Name, match.team2Name, match.winner);
+
     // 下流へ反映するため即時評価
     evaluateBracket();
   });
@@ -962,7 +1003,9 @@ function runAiSimulation() {
 // リセット
 function resetBracket() {
   isBracketLocked = false; // ロック解除
+  liveTickCount = 0;
   groupSlots = JSON.parse(JSON.stringify(initialGroupSlots));
+  recomputeGroupSlots();   // モデル確率を再適用
   matches = JSON.parse(JSON.stringify(initialMatches));
   renderAll();
 }
@@ -1160,101 +1203,338 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  recomputeGroupSlots();     // グループ順位確率をモデルから算出（手打ち値を置換）
   loadFifa3rdPlaceMapping(); // FIFA 3位マッピングをロード
-  setLanguage('ja'); // デフォルト日本語
-  startRealtimeUpdates(); // リアルタイム確率更新タイマーの開始
+  setLanguage('ja');         // デフォルト日本語
+  setupLiveToggle();         // LIVE トグルの配線
+  startRealtimeUpdates();    // ライブ更新エンジンの開始
+  loadLiveFootballData();    // 実際のリアルタイム試合結果・スタンドデータをロード
 });
 
-// リアルタイム確率更新ロジック (数秒ごとに微変動をシミュレート)
-function startRealtimeUpdates() {
-  setInterval(() => {
-    // 優勝国が決まってロックされている場合は確率の更新も一時停止
-    if (isBracketLocked) return;
+/* =====================================================================
+   ライブ更新エンジン (Live Match Engine)
+   - 試合中: 未確定グループ枠の確率がモメンタム付き乱数歩行で揺れ動く。
+     リードが一定差で入れ替われば「current」を更新し即ブラケットへ反映。
+   - 試合後: 一定間隔で最も大勢の決した枠の順位が「確定」し、スロットが
+     ロック → R32 の対戦カードが即更新される（Annex C も再計算）。
+   LIVE トグルで停止可能。優勝確定（ロック）中・モーダル表示中は自動停止。
+   ===================================================================== */
+let liveEnabled = true;
+let liveTickCount = 0;
 
-    Object.keys(groupSlots).forEach(key => {
-      const slot = groupSlots[key];
-      if (!slot.confirmed && slot.candidates.length > 1) {
-        // -0.2% から +0.2% の範囲で微小に変動
-        const delta = (Math.random() * 0.4 - 0.2);
-        
-        // 最初の候補の確率を増減
-        let newProb0 = parseFloat((slot.candidates[0].prob + delta).toFixed(2));
-        
-        // N候補に対応した汎用ロジック
-        const n = slot.candidates.length;
-        const minProb = 3;
-        const maxProb = 100 - (n - 1) * minProb;
-        
-        if (newProb0 > minProb && newProb0 < maxProb) {
-          // 各候補に小さなランダム変動を適用
-          const newProbs = slot.candidates.map((c, i) => {
-            if (i === 0) return newProb0;
-            const d = (Math.random() * 0.3 - 0.15);
-            return Math.max(minProb, c.prob + d);
-          });
-          
-          // 合計を100%に正規化
-          const sum = newProbs.reduce((a, b) => a + b, 0);
-          const normalized = newProbs.map(p => parseFloat((p / sum * 100).toFixed(2)));
-          
-          // 丸め誤差の補正（最後の候補に差分を付与）
-          const normSum = normalized.reduce((a, b) => a + b, 0);
-          normalized[n - 1] = parseFloat((normalized[n - 1] + (100 - normSum)).toFixed(2));
-          
-          // 全候補が最低確率を満たしているか検証
-          const allValid = normalized.every(p => p >= minProb);
-          if (allValid) {
-            normalized.forEach((p, i) => {
-              slot.candidates[i].prob = p;
-            });
-          }
-        }
-      }
-    });
-
-    // 画面上の数値を更新
-    updateProbabilityUI();
-  }, 4000); // 4秒ごとに変動
+// ライブ対象 = 未確定のグループ1位/2位枠（3位枠は Annex C 管理のため除外）
+function getLiveGroupSlots() {
+  return Object.keys(groupSlots).filter(k =>
+    /^[12][A-L]$/.test(k) && !groupSlots[k].confirmed && groupSlots[k].candidates.length > 1
+  );
 }
 
-// 確率表示UIのみを動的かつ軽量に書き換える (ブラケット全体を再描画せず、%数値のみ更新)
+// モメンタム付き乱数歩行で候補確率を更新し、合計100%へ正規化
+function driftCandidates(slot) {
+  const n = slot.candidates.length;
+  slot.candidates.forEach(c => {
+    if (typeof c._mom !== 'number') c._mom = 0;
+    c._mom = c._mom * 0.6 + (Math.random() * 2 - 1) * 0.9; // 慣性 + ランダム
+    c.prob = Math.max(0.5, c.prob + c._mom);
+  });
+  const sum = slot.candidates.reduce((s, c) => s + c.prob, 0) || 1;
+  slot.candidates.forEach(c => { c.prob = parseFloat((c.prob / sum * 100).toFixed(2)); });
+  const s2 = slot.candidates.reduce((a, c) => a + c.prob, 0);
+  slot.candidates[n - 1].prob = parseFloat((slot.candidates[n - 1].prob + (100 - s2)).toFixed(2));
+}
+
+// 1枠を確定（順位決定）させてロックする
+function finalizeGroupSlot(key) {
+  const slot = groupSlots[key];
+  if (!slot) return;
+  const leader = slot.candidates.reduce((a, b) => (b.prob > a.prob ? b : a));
+  slot.confirmed = true;
+  slot.current = leader.name;
+  slot.candidates = [{ name: leader.name, prob: 100 }];
+  showLiveToast(key, leader.name);
+}
+
+function startRealtimeUpdates() {
+  setInterval(liveTick, 3000); // 3秒ごと
+}
+
+function liveTick() {
+  if (isBracketLocked || !liveEnabled) return;
+  const modal = document.getElementById('candidates-modal');
+  if (modal && modal.classList.contains('active')) return; // モーダル操作中は触らない
+
+  liveTickCount++;
+  let structuralChange = false;
+
+  // 15秒（5回に1回）ごとにローカルのライブデータをリロード
+  if (liveTickCount % 5 === 0) {
+    loadLiveFootballData();
+  }
+
+  // 1) 試合中の確率変動（リード逆転は即反映）
+  getLiveGroupSlots().forEach(key => {
+    const slot = groupSlots[key];
+    driftCandidates(slot);
+    const leader = slot.candidates.reduce((a, b) => (b.prob > a.prob ? b : a));
+    if (leader.name !== slot.current) {
+      const cur = slot.candidates.find(c => c.name === slot.current);
+      const curProb = cur ? cur.prob : 0;
+      if (leader.prob - curProb > 2) { slot.current = leader.name; structuralChange = true; } // ヒステリシス
+    }
+  });
+
+  // 2) 一定間隔で順位確定イベント（最も大勢の決した枠から）
+  if (liveTickCount % 4 === 0) {
+    const slots = getLiveGroupSlots();
+    if (slots.length) {
+      let pick = null, best = -1;
+      slots.forEach(k => {
+        const lead = Math.max.apply(null, groupSlots[k].candidates.map(c => c.prob));
+        if (lead > best) { best = lead; pick = k; }
+      });
+      if (pick) { finalizeGroupSlot(pick); structuralChange = true; }
+    }
+  }
+
+  if (structuralChange) renderAll();      // 構造が変わったら全体再描画（R32 等を即更新）
+  else updateProbabilityUI();             // 数値だけなら軽量更新
+}
+
+// 順位確定トースト通知
+function showLiveToast(key, team) {
+  const host = document.getElementById('live-toasts');
+  if (!host) return;
+  const ja = currentLang === 'ja';
+  const g = key[1];
+  const pos = key[0] === '1' ? (ja ? '1位通過' : 'Winner') : (ja ? '2位通過' : 'Runner-up');
+  const t = document.createElement('div');
+  t.className = 'live-toast';
+  t.innerHTML = `<span class="lt-dot"></span><span class="lt-text">${ja ? 'グループ' : 'Group '}${g} ${pos} ${ja ? '確定' : 'confirmed'} — <b>${getTeamName(team)}</b></span>`;
+  host.appendChild(t);
+  requestAnimationFrame(() => t.classList.add('show'));
+  setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 500); }, 4200);
+}
+
+// LIVE トグルの配線
+function setupLiveToggle() {
+  const btn = document.getElementById('live-toggle');
+  if (!btn) return;
+  const sync = () => {
+    btn.classList.toggle('active', liveEnabled);
+    const label = btn.querySelector('.live-label');
+    if (label) label.textContent = liveEnabled ? (currentLang === 'ja' ? 'LIVE 自動進行 ON' : 'LIVE ON') : (currentLang === 'ja' ? 'LIVE 停止中' : 'LIVE OFF');
+  };
+  btn.addEventListener('click', () => { liveEnabled = !liveEnabled; sync(); });
+  sync();
+}
+
+// 確率表示UIのみを軽量に書き換える（ブラケット全体を再描画せず%数値のみ更新）
 function updateProbabilityUI() {
-  document.querySelectorAll('.team-slot').forEach(slotEl => {
-    const matchBox = slotEl.closest('.match-box');
-    if (!matchBox) return;
-    
-    const matchId = matchBox.id.replace('match-', '');
-    const match = matches[matchId];
-    
-    // スロットがチーム1かチーム2か判定
-    const isTeam1 = slotEl.classList.contains('winner-selected') || 
-                     (slotEl.nextElementSibling !== null && slotEl.nextElementSibling.classList.contains('team-slot'));
-                     
+  document.querySelectorAll('.team-slot[data-match-id]').forEach(slotEl => {
+    const match = matches[slotEl.dataset.matchId];
+    if (!match) return;
+
+    const isTeam1 = slotEl.dataset.teamIndex === '1';
     const teamName = isTeam1 ? match.team1Name : match.team2Name;
     const participant = isTeam1 ? match.team1 : match.team2;
-    
+
     if (participant && participant.slot) {
-      const slotKey = participant.slot;
-      const slotData = groupSlots[slotKey];
+      const slotData = groupSlots[participant.slot];
       const candidate = slotData.candidates.find(c => c.name === teamName);
-      
       if (candidate && candidate.prob < 100) {
-        const probTextEl = slotEl.querySelector('.team-probability.select-trigger');
+        const probTextEl = slotEl.querySelector('span.team-probability');
         if (probTextEl) {
           const oldVal = parseFloat(probTextEl.textContent);
           const newVal = candidate.prob;
-          
-          if (oldVal !== newVal) {
+          if (Math.abs(oldVal - newVal) > 0.001) {
             probTextEl.textContent = `${newVal.toFixed(2)}%`;
-            // 数値変化時に一瞬ネオンブルーに光らせるエフェクト
-            probTextEl.style.color = 'var(--color-primary)';
-            probTextEl.style.transition = 'color 0.1s ease';
-            setTimeout(() => {
-              probTextEl.style.color = 'var(--color-secondary)';
-            }, 600);
+            // 変化を一瞬光らせる
+            probTextEl.classList.remove('prob-flash');
+            void probTextEl.offsetWidth; // reflow でアニメ再始動
+            probTextEl.classList.add('prob-flash');
           }
         }
       }
     }
   });
+}
+
+// =====================================================================
+// リアルタイムデータ同期エンジン (football-data.org 連携)
+// =====================================================================
+function loadLiveFootballData() {
+  fetch('live_standings.json')
+    .then(res => {
+      if (!res.ok) throw new Error("No live standings file found");
+      return res.json();
+    })
+    .then(data => {
+      applyLiveStandings(data);
+    })
+    .catch(err => console.log("Live standings load error:", err.message));
+
+  fetch('live_matches.json')
+    .then(res => {
+      if (!res.ok) throw new Error("No live matches file found");
+      return res.json();
+    })
+    .then(data => {
+      applyLiveMatches(data);
+    })
+    .catch(err => console.log("Live matches load error:", err.message));
+}
+
+function applyLiveStandings(data) {
+  if (!data || !data.standings) return;
+  
+  let structuralChange = false;
+  
+  data.standings.forEach(groupStanding => {
+    const groupChar = groupStanding.group.replace("Group ", "").trim();
+    if (!groupChar || groupChar.length !== 1) return;
+    
+    const table = groupStanding.table;
+    if (!table || table.length < 4) return;
+    
+    const isCompleted = table.every(t => t.playedGames >= 3);
+    
+    const team3rd = table[2].team.name;
+    if (group3rdPlaceTeams[groupChar] !== team3rd) {
+      group3rdPlaceTeams[groupChar] = team3rd;
+      structuralChange = true;
+    }
+    
+    const firstPlaceTeam = table[0].team.name;
+    const secondPlaceTeam = table[1].team.name;
+    
+    const slot1 = groupSlots["1" + groupChar];
+    const slot2 = groupSlots["2" + groupChar];
+    
+    if (slot1) {
+      if (isCompleted) {
+        if (!slot1.confirmed || slot1.current !== firstPlaceTeam) {
+          slot1.confirmed = true;
+          slot1.current = firstPlaceTeam;
+          slot1.candidates = [{ name: firstPlaceTeam, prob: 100 }];
+          structuralChange = true;
+        }
+      } else {
+        if (slot1.current !== firstPlaceTeam) {
+          slot1.current = firstPlaceTeam;
+          structuralChange = true;
+        }
+      }
+    }
+    
+    if (slot2) {
+      if (isCompleted) {
+        if (!slot2.confirmed || slot2.current !== secondPlaceTeam) {
+          slot2.confirmed = true;
+          slot2.current = secondPlaceTeam;
+          slot2.candidates = [{ name: secondPlaceTeam, prob: 100 }];
+          structuralChange = true;
+        }
+      } else {
+        if (slot2.current !== secondPlaceTeam) {
+          slot2.current = secondPlaceTeam;
+          structuralChange = true;
+        }
+        
+        // 敗退が数学的に確定しているチームを除外
+        const teamMaxPoints = {};
+        table.forEach(t => {
+          const remainingGames = 3 - t.playedGames;
+          teamMaxPoints[t.team.name] = t.points + (remainingGames * 3);
+        });
+        
+        const currentPoints = table.map(t => t.points).sort((a, b) => b - a);
+        const cutoffPoints = currentPoints[1] || 0;
+        
+        const activeCandidates = slot2.candidates.filter(c => {
+          const teamName = c.name;
+          const tableEntry = table.find(t => t.team.name === teamName);
+          if (!tableEntry) return true;
+          if (teamMaxPoints[teamName] < cutoffPoints) {
+            return false;
+          }
+          return true;
+        });
+        
+        if (activeCandidates.length !== slot2.candidates.length) {
+          slot2.candidates = activeCandidates;
+          structuralChange = true;
+        }
+      }
+    }
+  });
+  
+  if (structuralChange) {
+    recomputeGroupSlots();
+    evaluateBracket();
+    renderAll();
+  }
+}
+
+function applyLiveMatches(data) {
+  if (!data || !data.matches) return;
+  
+  let structuralChange = false;
+  
+  data.matches.forEach(apiMatch => {
+    if (apiMatch.stage === "GROUP_STAGE") return;
+    if (apiMatch.status !== "FINISHED") return;
+    
+    const homeTeam = apiMatch.homeTeam.name;
+    const awayTeam = apiMatch.awayTeam.name;
+    
+    const matchId = Object.keys(matches).find(id => {
+      const m = matches[id];
+      return (
+        (m.team1Name === homeTeam && m.team2Name === awayTeam) ||
+        (m.team1Name === awayTeam && m.team2Name === homeTeam)
+      );
+    });
+    
+    if (matchId) {
+      const match = matches[matchId];
+      const score = apiMatch.score;
+      if (!score || !score.fullTime) return;
+      
+      const homeScore = score.fullTime.home;
+      const awayScore = score.fullTime.away;
+      
+      let apiWinner = null;
+      if (score.winner === "HOME_TEAM") apiWinner = homeTeam;
+      else if (score.winner === "AWAY_TEAM") apiWinner = awayTeam;
+      
+      let scoreText = "";
+      const isHomeWinner = (apiWinner === homeTeam);
+      const winScore = isHomeWinner ? homeScore : awayScore;
+      const loseScore = isHomeWinner ? awayScore : homeScore;
+      
+      if (score.duration === "REGULAR") {
+        scoreText = isHomeWinner ? `${winScore} - ${loseScore}` : `${loseScore} - ${winScore}`;
+      } else if (score.duration === "EXTRA_TIME") {
+        scoreText = isHomeWinner ? `${winScore} - ${loseScore} (AET)` : `${loseScore} - ${winScore} (AET)`;
+      } else if (score.duration === "PENALTY_SHOOTOUT") {
+        const pkHome = score.penalties ? score.penalties.home : 0;
+        const pkAway = score.penalties ? score.penalties.away : 0;
+        const pkText = isHomeWinner ? `(${pkHome}-${pkAway} PK)` : `(${pkAway}-${pkHome} PK)`;
+        scoreText = `${homeScore} - ${awayScore} ${pkText}`;
+      } else {
+        scoreText = `${homeScore} - ${awayScore}`;
+      }
+      
+      if (match.winner !== apiWinner || match.score !== scoreText) {
+        match.winner = apiWinner;
+        match.score = scoreText;
+        structuralChange = true;
+      }
+    }
+  });
+  
+  if (structuralChange) {
+    evaluateBracket();
+    renderAll();
+  }
 }

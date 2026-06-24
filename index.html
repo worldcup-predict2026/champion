@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FIFA World Cup 2026 Bracket Predictor</title>
+  <title>FIFA World Cup 2026 — Dream Bracket</title>
   <link rel="stylesheet" href="styles.css">
   <!-- Google Fonts: Inter & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
   <!-- FontAwesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- Canvas Confetti for celebratory effects -->
@@ -16,220 +16,217 @@
 </head>
 <body>
 
-  <!-- Parallax Background Stack (3D Dive Experience) -->
-  <div class="parallax-container" id="scroll-container">
-    <div class="parallax-bg layer-sky"></div>
-    <div class="parallax-bg layer-roof"></div>
-    <div class="parallax-bg layer-stands"></div>
-    <div class="parallax-bg layer-flares"></div>
-    <div class="parallax-bg layer-pitch"></div>
-    <div class="parallax-bg layer-overlay"></div>
-    
-    <div class="content-wrapper">
-      <!-- Header -->
-      <header>
-        <div class="header-container">
-          <div class="logo">
-            <span class="logo-badge">2026</span>
-            <h1 data-key="title">WORLD CUP PREDICTOR</h1>
-          </div>
-          <div class="i18n-selector">
-            <i class="fa-solid fa-globe globe-icon"></i>
-            <select id="lang-select" class="lang-select">
-              <!-- Will be dynamically populated by app.js -->
-            </select>
-          </div>
-        </div>
-      </header>
-
-      <!-- Welcome Hero Section -->
-      <section class="hero-section">
-        <div class="hero-content">
-          <!-- 3D Metallic Gold Embossed Logo -->
-          <div class="main-metallic-logo" id="main-gold-logo">
-            <div class="logo-shine"></div>
-            <div class="logo-top-text">FIFA</div>
-            <div class="logo-main-title">WORLD CUP 2026</div>
-            <div class="logo-sub-title">TOURNAMENT PREDICTION</div>
-          </div>
-          
-          <p class="date-badge" data-key="heroDate">CURRENT DATE: JUNE 25, 2026</p>
-          <p class="hero-desc" data-key="heroDesc">The Group Stage is concluding. Confirm probabilities, switch candidates, run AI projections, or manually guide your team to FIFA World Cup glory!</p>
-          
-          <!-- Scroll down indicator -->
-          <div class="scroll-indicator">
-            <span data-key="scrollPrompt">Scroll down to reveal stadium & bracket</span>
-            <i class="fa-solid fa-chevron-down scroll-arrow"></i>
-          </div>
-        </div>
-      </section>
-
-      <!-- Dive Spacer for Scroll-driven 3D Animation -->
-      <div class="dive-spacer"></div>
-
-      <!-- Control Center -->
-      <section class="control-center">
-        <div class="control-card">
-          <div class="mode-info">
-            <h3 data-key="controlTitle">Simulation Panel</h3>
-            <p data-key="controlDesc">Click on individual slots to adjust qualified teams based on probability, or use the controls below to run automated predictions.</p>
-          </div>
-          <div class="control-actions">
-            <button id="ai-predict-btn" class="btn btn-primary">
-              <i class="fa-solid fa-robot"></i> <span data-key="btnAiPredict">AI Auto Predict</span>
-            </button>
-            <button id="reset-btn" class="btn btn-secondary">
-              <i class="fa-solid fa-rotate-left"></i> <span data-key="btnReset">Reset Bracket</span>
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <!-- View Selector (Mobile Optimization) -->
-      <div class="view-selector">
-        <button class="view-btn active" data-view="all" data-key="viewAll">Full Bracket</button>
-        <button class="view-btn" data-view="left" data-key="viewLeft">Left Side (M73-M80)</button>
-        <button class="view-btn" data-view="right" data-key="viewRight">Right Side (M81-M88)</button>
-        <button class="view-btn" data-view="center" data-key="viewCenter">Finals</button>
-      </div>
-
-      <!-- Tournament Bracket Container -->
-      <main class="bracket-container" id="bracket-view">
-        
-        <!-- LEFT BRACKET SIDE (Matches 73-80) -->
-        <div class="bracket-column-group side-left">
-          
-          <!-- Round of 32 (Left) -->
-          <div class="round-column r32">
-            <div class="round-header" data-key="round32">ROUND OF 32</div>
-            <div class="matches-list" id="r32-left-matches">
-              <!-- JS will inject Matches 73 to 80 -->
-            </div>
-          </div>
-
-          <!-- Round of 16 (Left) -->
-          <div class="round-column r16">
-            <div class="round-header" data-key="round16">ROUND OF 16</div>
-            <div class="matches-list" id="r16-left-matches">
-              <!-- JS will inject Matches 89, 90, 91, 92 -->
-            </div>
-          </div>
-
-          <!-- Quarter-Finals (Left) -->
-          <div class="round-column qf">
-            <div class="round-header" data-key="quarterFinals">QUARTER-FINALS</div>
-            <div class="matches-list" id="qf-left-matches">
-              <!-- JS will inject Matches 97, 99 -->
-            </div>
-          </div>
-
-          <!-- Semi-Finals (Left) -->
-          <div class="round-column sf">
-            <div class="round-header" data-key="semiFinals">SEMI-FINALS</div>
-            <div class="matches-list" id="sf-left-matches">
-              <!-- JS will inject Match 101 -->
-            </div>
-          </div>
-
-        </div>
-
-        <!-- CENTER FINALS AREA (Trophy, Final, 3rd Place) -->
-        <div class="bracket-column-group side-center">
-          <div class="finals-container">
-            <div class="trophy-display">
-              <div class="trophy-glow"></div>
-              <img src="https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=400&q=80" alt="Trophy Stage" class="trophy-bg-img">
-              <i class="fa-solid fa-trophy trophy-icon"></i>
-              <div class="champion-podium" id="champion-podium">
-                <span class="podium-label" data-key="worldChampion">WORLD CHAMPION</span>
-                <div class="champion-team-display" id="champion-team">
-                  <span class="placeholder-text">?</span>
-                </div>
-                <div id="finalised-badge" class="finalised-badge" style="display: none;">
-                  <i class="fa-solid fa-circle-check"></i> <span data-key="finalisedBadge">PREDICTION FINALISED</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Match 104: Final -->
-            <div class="final-match-box">
-              <div class="round-header final-header" data-key="final">WORLD CUP FINAL</div>
-              <div id="final-match" class="match-box final-box">
-                <!-- JS will inject Match 104 -->
-              </div>
-            </div>
-
-            <!-- Match 103: Third Place Play-off -->
-            <div class="third-place-box">
-              <div class="round-header third-header" data-key="thirdPlace">THIRD PLACE PLAY-OFF</div>
-              <div id="third-place-match" class="match-box third-box">
-                <!-- JS will inject Match 103 -->
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- RIGHT BRACKET SIDE (Matches 81-88) -->
-        <div class="bracket-column-group side-right">
-          
-          <!-- Semi-Finals (Right) -->
-          <div class="round-column sf">
-            <div class="round-header" data-key="semiFinals">SEMI-FINALS</div>
-            <div class="matches-list" id="sf-right-matches">
-              <!-- JS will inject Match 102 -->
-            </div>
-          </div>
-
-          <!-- Quarter-Finals (Right) -->
-          <div class="round-column qf">
-            <div class="round-header" data-key="quarterFinals">QUARTER-FINALS</div>
-            <div class="matches-list" id="qf-right-matches">
-              <!-- JS will inject Matches 98, 100 -->
-            </div>
-          </div>
-
-          <!-- Round of 16 (Right) -->
-          <div class="round-column r16">
-            <div class="round-header" data-key="round16">ROUND OF 16</div>
-            <div class="matches-list" id="r16-right-matches">
-              <!-- JS will inject Matches 93, 94, 95, 96 -->
-            </div>
-          </div>
-
-          <!-- Round of 32 (Right) -->
-          <div class="round-column r32">
-            <div class="round-header" data-key="round32">ROUND OF 32</div>
-            <div class="matches-list" id="r32-right-matches">
-              <!-- JS will inject Matches 81 to 88 -->
-            </div>
-          </div>
-
-        </div>
-
-      </main>
-
-      <!-- Candidate Selection Popup Modal -->
-      <div class="modal-overlay" id="candidates-modal">
-        <div class="modal-card">
-          <div class="modal-header">
-            <h4 id="modal-title">Select Team</h4>
-            <button class="modal-close" id="modal-close-btn">&times;</button>
-          </div>
-          <div class="candidates-list" id="modal-candidates-list">
-            <!-- Dynamic selection buttons will be injected here -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Footer -->
-      <footer>
-        <div class="footer-container">
-          <p data-key="footerCredits">&copy; 2026 FIFA World Cup Fan Tracker. Built for international football fans.</p>
-        </div>
-      </footer>
-    </div>
+  <!-- ===== Dream Loading Veil ===== -->
+  <div class="dream-veil" id="dream-veil">
+    <div class="veil-orb"></div>
+    <div class="veil-text">Entering the dream<span class="veil-dots"></span></div>
   </div>
 
+  <!-- ===== Floating Dream Particles ===== -->
+  <div class="dream-particles" id="dream-particles" aria-hidden="true"></div>
+
+  <!-- ===== Soft iridescent aura that follows the cursor ===== -->
+  <div class="cursor-aura" id="cursor-aura" aria-hidden="true"></div>
+
+  <!-- ===== Live finalisation toasts ===== -->
+  <div class="live-toasts" id="live-toasts" aria-live="polite"></div>
+
+  <!-- ===== Header ===== -->
+  <header id="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <span class="logo-badge">2026</span>
+        <h1 data-key="title">WORLD CUP PREDICTOR</h1>
+      </div>
+      <div class="header-tools">
+        <button id="audio-toggle" class="audio-toggle" aria-pressed="false" title="Dream music">
+          <i class="fa-solid fa-music"></i>
+          <span class="audio-wave"><i></i><i></i><i></i><i></i></span>
+        </button>
+        <div class="i18n-selector">
+          <i class="fa-solid fa-globe globe-icon"></i>
+          <select id="lang-select" class="lang-select">
+            <!-- Will be dynamically populated by app.js -->
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Scroll-driven Cinematic Video Hero ===== -->
+  <section class="cinema-section" id="cinema-section">
+    <div class="cinema-stage">
+      <video id="cinema-video" class="cinema-video" muted playsinline preload="auto" disablepictureinpicture>
+        <source src="assets/tournament.mp4" type="video/mp4">
+      </video>
+
+      <!-- Dreamy white wash + vignette over the real footage -->
+      <div class="cinema-wash"></div>
+      <div class="cinema-grain"></div>
+
+      <!-- Scroll-synced narrative captions -->
+      <div class="cinema-copy">
+        <div class="cine-cap" data-from="0" data-to="0.22">
+          <div class="cine-eyebrow">FIFA WORLD CUP 2026</div>
+          <h2 class="cine-title" data-key="cineTitle1">夢の舞台へ</h2>
+          <p class="cine-sub" data-key="cineSub1">A tournament that lives in a dream</p>
+        </div>
+        <div class="cine-cap" data-from="0.26" data-to="0.52">
+          <h2 class="cine-title" data-key="cineTitle2">48カ国、ひとつの頂点</h2>
+          <p class="cine-sub" data-key="cineSub2">48 nations · one summit</p>
+        </div>
+        <div class="cine-cap" data-from="0.56" data-to="0.82">
+          <h2 class="cine-title" data-key="cineTitle3">あなたの予想で、優勝を描く</h2>
+          <p class="cine-sub" data-key="cineSub3">Predict your champion</p>
+        </div>
+      </div>
+
+      <!-- Cinematic progress bar -->
+      <div class="cinema-progress"><span id="cinema-progress-fill"></span></div>
+
+      <!-- Scroll hint -->
+      <div class="scroll-indicator" id="scroll-hint">
+        <span data-key="scrollPrompt">スクロールして物語を進める</span>
+        <i class="fa-solid fa-chevron-down scroll-arrow"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Main content (rises out of the dream) ===== -->
+  <div class="content-wrapper">
+
+    <!-- Bridge title between cinema and bracket -->
+    <section class="bridge-hero reveal">
+      <p class="date-badge" data-key="heroDate">CURRENT DATE: JUNE 25, 2026</p>
+      <h2 class="bridge-title">Dream Bracket</h2>
+      <p class="hero-desc" data-key="heroDesc">The Group Stage is concluding. Confirm probabilities, switch candidates, run AI projections, or manually guide your team to FIFA World Cup glory!</p>
+    </section>
+
+    <!-- Control Center -->
+    <section class="control-center reveal">
+      <div class="control-card">
+        <div class="mode-info">
+          <h3 data-key="controlTitle">Simulation Panel</h3>
+          <p data-key="controlDesc">Click on individual slots to adjust qualified teams based on probability, or use the controls below to run automated predictions.</p>
+        </div>
+        <div class="control-actions">
+          <button id="ai-predict-btn" class="btn btn-primary">
+            <i class="fa-solid fa-robot"></i> <span data-key="btnAiPredict">AI Auto Predict</span>
+          </button>
+          <button id="reset-btn" class="btn btn-secondary">
+            <i class="fa-solid fa-rotate-left"></i> <span data-key="btnReset">Reset Bracket</span>
+          </button>
+          <button id="live-toggle" class="btn btn-live active" title="Live group-stage updates">
+            <span class="live-dot"></span> <span class="live-label">LIVE 自動進行 ON</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- View Selector (Mobile Optimization) -->
+    <div class="view-selector reveal">
+      <button class="view-btn active" data-view="all" data-key="viewAll">Full Bracket</button>
+      <button class="view-btn" data-view="left" data-key="viewLeft">Left Side (M73-M80)</button>
+      <button class="view-btn" data-view="right" data-key="viewRight">Right Side (M81-M88)</button>
+      <button class="view-btn" data-view="center" data-key="viewCenter">Finals</button>
+    </div>
+
+    <!-- Tournament Bracket Container -->
+    <main class="bracket-container reveal" id="bracket-view">
+
+      <!-- LEFT BRACKET SIDE (Matches 73-80) -->
+      <div class="bracket-column-group side-left">
+        <div class="round-column r32">
+          <div class="round-header" data-key="round32">ROUND OF 32</div>
+          <div class="matches-list" id="r32-left-matches"></div>
+        </div>
+        <div class="round-column r16">
+          <div class="round-header" data-key="round16">ROUND OF 16</div>
+          <div class="matches-list" id="r16-left-matches"></div>
+        </div>
+        <div class="round-column qf">
+          <div class="round-header" data-key="quarterFinals">QUARTER-FINALS</div>
+          <div class="matches-list" id="qf-left-matches"></div>
+        </div>
+        <div class="round-column sf">
+          <div class="round-header" data-key="semiFinals">SEMI-FINALS</div>
+          <div class="matches-list" id="sf-left-matches"></div>
+        </div>
+      </div>
+
+      <!-- CENTER FINALS AREA -->
+      <div class="bracket-column-group side-center">
+        <div class="finals-container">
+          <div class="trophy-display">
+            <div class="trophy-glow"></div>
+            <img src="https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=400&q=80" alt="Trophy Stage" class="trophy-bg-img">
+            <i class="fa-solid fa-trophy trophy-icon"></i>
+            <div class="champion-podium" id="champion-podium">
+              <span class="podium-label" data-key="worldChampion">WORLD CHAMPION</span>
+              <div class="champion-team-display" id="champion-team">
+                <span class="placeholder-text">?</span>
+              </div>
+              <div id="finalised-badge" class="finalised-badge" style="display: none;">
+                <i class="fa-solid fa-circle-check"></i> <span data-key="finalisedBadge">PREDICTION FINALISED</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="final-match-box">
+            <div class="round-header final-header" data-key="final">WORLD CUP FINAL</div>
+            <div id="final-match" class="match-box final-box"></div>
+          </div>
+
+          <div class="third-place-box">
+            <div class="round-header third-header" data-key="thirdPlace">THIRD PLACE PLAY-OFF</div>
+            <div id="third-place-match" class="match-box third-box"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT BRACKET SIDE (Matches 81-88) -->
+      <div class="bracket-column-group side-right">
+        <div class="round-column sf">
+          <div class="round-header" data-key="semiFinals">SEMI-FINALS</div>
+          <div class="matches-list" id="sf-right-matches"></div>
+        </div>
+        <div class="round-column qf">
+          <div class="round-header" data-key="quarterFinals">QUARTER-FINALS</div>
+          <div class="matches-list" id="qf-right-matches"></div>
+        </div>
+        <div class="round-column r16">
+          <div class="round-header" data-key="round16">ROUND OF 16</div>
+          <div class="matches-list" id="r16-right-matches"></div>
+        </div>
+        <div class="round-column r32">
+          <div class="round-header" data-key="round32">ROUND OF 32</div>
+          <div class="matches-list" id="r32-right-matches"></div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Candidate Selection Popup Modal -->
+    <div class="modal-overlay" id="candidates-modal">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h4 id="modal-title">Select Team</h4>
+          <button class="modal-close" id="modal-close-btn">&times;</button>
+        </div>
+        <div class="candidates-list" id="modal-candidates-list"></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <p data-key="footerCredits">&copy; 2026 FIFA World Cup Fan Tracker. Built for international football fans.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="translations_full.js"></script>
   <script src="app.js"></script>
+  <script src="experience.js"></script>
 </body>
 </html>
