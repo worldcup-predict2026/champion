@@ -31,7 +31,8 @@ const allTranslations = {
     cineTitle2: "48 Nations, One Summit", cineSub2: "48 nations · one summit",
     cineTitle3: "Paint Your Champion", cineSub3: "Predict your champion",
     liveMatchesTitle: "LIVE MATCH STATION", liveMatchesDesc: "Real-time scores and detailed statistics from active matches.",
-    btnSaveImg: "Save as Image"
+    btnSaveImg: "Save as Image",
+    btnSponsor: "Sponsor"
   },
   ja: {
     title: "W杯 2026 予想",
@@ -64,7 +65,8 @@ const allTranslations = {
     cineTitle2: "48カ国、ひとつの頂点", cineSub2: "48の国、ひとつの頂点",
     cineTitle3: "あなたの予想で、優勝を描く", cineSub3: "あなたの予想で優勝国を",
     liveMatchesTitle: "LIVE 試合ステーション", liveMatchesDesc: "現在進行中のリアルタイムスコアと詳細な試合データをお届けします。",
-    btnSaveImg: "画像で保存"
+    btnSaveImg: "画像で保存",
+    btnSponsor: "スポンサー"
   },
   es: {
     title: "MUNDIAL 2026",
@@ -97,7 +99,8 @@ const allTranslations = {
     cineTitle2: "48 Naciones, Una Cima", cineSub2: "48 naciones · una cima",
     cineTitle3: "Dibuja a tu Campeón", cineSub3: "Predice tu campeón",
     liveMatchesTitle: "ESTACIÓN DE PARTIDOS EN VIVO", liveMatchesDesc: "Marcadores en tiempo real y estadísticas detalladas de partidos activos.",
-    btnSaveImg: "Guardar como imagen"
+    btnSaveImg: "Guardar como imagen",
+    btnSponsor: "Patrocinar"
   },
   fr: {
     title: "COUPE DU MONDE 2026",
@@ -130,7 +133,8 @@ const allTranslations = {
     cineTitle2: "48 Nations, Un Sommet", cineSub2: "48 nations · un sommet",
     cineTitle3: "Dessinez Votre Champion", cineSub3: "Prédisez votre champion",
     liveMatchesTitle: "STATION DES MATCHS EN DIRECT", liveMatchesDesc: "Scores en temps réel et statistiques détaillées des matchs en cours.",
-    btnSaveImg: "Enregistrer l'image"
+    btnSaveImg: "Enregistrer l'image",
+    btnSponsor: "Sponsoriser"
   },
   de: {
     title: "WELTMEISTERSCHAFT 2026",
@@ -163,7 +167,8 @@ const allTranslations = {
     cineTitle2: "48 Nationen, Ein Gipfel", cineSub2: "48 Nationen · ein Gipfel",
     cineTitle3: "Zeichne Deinen Champion", cineSub3: "Sage deinen Champion voraus",
     liveMatchesTitle: "LIVE MATCH STATION", liveMatchesDesc: "Echtzeit-Ergebnisse und detaillierte Statistiken laufender Spiele.",
-    btnSaveImg: "Als Bild speichern"
+    btnSaveImg: "Als Bild speichern",
+    btnSponsor: "Sponsoren"
   },
   pt: {
     title: "COPA DO MUNDO 2026",
@@ -196,7 +201,8 @@ const allTranslations = {
     cineTitle2: "48 Nações, Um Cume", cineSub2: "48 nações · um cume",
     cineTitle3: "Desenhe o Seu Campeão", cineSub3: "Preveja o seu campeão",
     liveMatchesTitle: "ESTAÇÃO DE JOGOS AO VIVO", liveMatchesDesc: "Placares em tempo real e estatísticas detalhadas de jogos ativos.",
-    btnSaveImg: "Salvar como imagem"
+    btnSaveImg: "Salvar como imagem",
+    btnSponsor: "Patrocinar"
   },
   ko: {
     title: "월드컵 2026 예측",
@@ -229,7 +235,8 @@ const allTranslations = {
     cineTitle2: "48개국, 하나의 정상", cineSub2: "48개국 · 하나의 정상",
     cineTitle3: "당신의 예측으로 우승을 그리다", cineSub3: "당신의 우승팀을 예측하세요",
     liveMatchesTitle: "라이브 매치 스테이션", liveMatchesDesc: "진행 중인 경기의 실시간 스코어와 상세 데이터를 제공합니다.",
-    btnSaveImg: "이미지로 저장"
+    btnSaveImg: "이미지로 저장",
+    btnSponsor: "후원하기"
   },
   zh: {
     title: "2026 世界杯预测",
@@ -262,7 +269,8 @@ const allTranslations = {
     cineTitle2: "48国，唯一巅峰", cineSub2: "48国 · 唯一巅峰",
     cineTitle3: "用你的预测描绘冠军", cineSub3: "预测你的冠军",
     liveMatchesTitle: "实时比赛直播站", liveMatchesDesc: "提供进行中比赛的实时比分与详细数据。",
-    btnSaveImg: "保存为图片"
+    btnSaveImg: "保存为图片",
+    btnSponsor: "赞助"
   }
 };
 

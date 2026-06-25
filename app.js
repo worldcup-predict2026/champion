@@ -98,7 +98,8 @@ const translations = {
     footerCredits: "© 2026 FIFA World Cup Fan Simulator. Created with real group draw data.",
     liveMatchesTitle: "LIVE MATCH STATION",
     liveMatchesDesc: "Real-time scores and detailed statistics from active matches.",
-    btnSaveImg: "Save as Image"
+    btnSaveImg: "Save as Image",
+    btnSponsor: "Sponsor"
   },
   ja: {
     title: "W杯 2026 予想",
@@ -129,7 +130,8 @@ const translations = {
     footerCredits: "© 2026 FIFAワールドカップ ファンシミュレーター。実際のグループ抽選データに基づいています。",
     liveMatchesTitle: "LIVE 試合ステーション",
     liveMatchesDesc: "現在進行中のリアルタイムスコアと詳細な試合データをお届けします。",
-    btnSaveImg: "画像で保存"
+    btnSaveImg: "画像で保存",
+    btnSponsor: "スポンサー"
   },
   es: {
     title: "MUNDIAL 2026",
@@ -160,7 +162,8 @@ const translations = {
     footerCredits: "© 2026 Simulador del Fanático de la Copa Mundial. Creado con los datos reales del sorteo.",
     liveMatchesTitle: "ESTACIÓN DE PARTIDOS EN VIVO",
     liveMatchesDesc: "Marcadores en tiempo real y estadísticas detalladas de partidos activos.",
-    btnSaveImg: "Guardar como imagen"
+    btnSaveImg: "Guardar como imagen",
+    btnSponsor: "Patrocinar"
   }
 };
 
